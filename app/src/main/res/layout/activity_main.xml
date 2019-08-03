@@ -6,19 +6,27 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
+    <com.xgc1986.ripplebutton.widget.RippleButton
         android:id="@+id/button_on"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="on"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:buttonColor="@android:color/holo_blue_dark"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rippleColor="@android:color/holo_blue_bright" />
 
-    <Button
+    <com.xgc1986.ripplebutton.widget.RippleButton
         android:id="@+id/button_off"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text="off"
-        app:layout_constraintTop_toBottomOf="@id/button_on" />
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:buttonColor="@android:color/holo_red_dark"
+        app:layout_constraintTop_toBottomOf="@id/button_on"
+        app:rippleColor="@android:color/darker_gray" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
