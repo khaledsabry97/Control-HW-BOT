@@ -10,34 +10,14 @@
         android:id="@+id/button_on"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:focusable="true"
-        android:onClick="onButton"
-        android:text="turn on"
-        app:layout_constrainedWidth="false"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintWidth_default="spread"
-        tools:layout_editor_absoluteX="171dp" />
+        android:text="on"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_off"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:onClick="offButton"
-        android:text="turn off"
+        android:text="off"
         app:layout_constraintTop_toBottomOf="@id/button_on"
-        tools:layout_editor_absoluteX="170dp" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="fill_parent"
-        android:layout_height="592dp"
-        android:ems="10"
-        android:gravity="start|top"
-        android:inputType="textMultiLine"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_off" />
-
-
+        tools:layout_editor_absoluteX="150dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
