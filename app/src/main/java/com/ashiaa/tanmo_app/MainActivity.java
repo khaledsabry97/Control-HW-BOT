@@ -21,14 +21,6 @@ public class MainActivity extends AppCompatActivity {
         buttonFunctionsObject.OffButtonFunction();
 
 
-
     }                                                           //onCreate end
-
-
-
-
-
-
-
 
 }       //MainActivity end
