@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TANMO_app</string>
+
+    <!--temporary empty strings-->
+    <string name="user_name"> </string>
+    <string name="password"> </string>
+    <string name="device_id"> </string>
+    <string name="ip"> </string>
+    <string name="current_clock"> </string>
 </resources>

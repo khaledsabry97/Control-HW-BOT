@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.xgc1986.android:ripplebutton:0.5.0@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/569c9e8a3c71cdae4bded66502dfa7ed/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/569c9e8a3c71cdae4bded66502dfa7ed/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/5aca9079844b04c662ac781ddfe0eac4/res" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/5aca9079844b04c662ac781ddfe0eac4/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.xgc1986.android/ripplebutton/0.5.0/587ef40acf12cbd6c2b00ae8049b179afbd6e27b/ripplebutton-0.5.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/com.xgc1986.android/ripplebutton/0.5.0/587ef40acf12cbd6c2b00ae8049b179afbd6e27b/ripplebutton-0.5.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
