@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TANMO_app</string>
+    <string name="ip">192.172.253</string>
+    <string name="user_name"></string>
+    <string name="password"></string>
+    <string name="device_id"></string>
+    <string name="current_clock"></string>
 </resources>
