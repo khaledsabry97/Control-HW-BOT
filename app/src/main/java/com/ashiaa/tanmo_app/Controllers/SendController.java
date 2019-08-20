@@ -1,6 +1,7 @@
 package com.ashiaa.tanmo_app.Controllers;
 
 import android.app.Activity;
+import android.content.Context;
 
 import com.ashiaa.tanmo_app.Connections.SendRequest;
 import com.ashiaa.tanmo_app.Model.SaveAndRestore;
@@ -14,9 +15,9 @@ public class SendController extends Controller {
     final static String deviceId = "device_id";
     final static String switchs = "switch";
     final static String period = "period";
-    Activity activity;
+    Context activity;
 
-    public SendController(Activity activity) {
+    public SendController(Context activity) {
         this.activity = activity;
     }
 

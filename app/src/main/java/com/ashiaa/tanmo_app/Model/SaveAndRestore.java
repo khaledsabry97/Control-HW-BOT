@@ -9,12 +9,12 @@ import com.ashiaa.tanmo_app.R;
 import java.util.TreeMap;
 
 public class SaveAndRestore {
-    private Activity activity;
+    private Context activity;
     private  SharedPreferences sharedPref;
-    public SaveAndRestore(Activity activity)
+    public SaveAndRestore(Context activity)
     {
         this.activity = activity;
-        sharedPref = activity.getPreferences(Context.MODE_PRIVATE);
+        sharedPref = activity.getSharedPreferences("hello",Context.MODE_PRIVATE);
     }
 
 

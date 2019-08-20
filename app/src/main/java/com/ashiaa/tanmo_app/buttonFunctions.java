@@ -44,7 +44,6 @@ public class buttonFunctions {
                 Toast.makeText(activityAttribute, "الرجاء الإنتظار",
                         Toast.LENGTH_LONG).show();
 
-                requestObject.onButtonFunction(argOn);
                 //debugger message
                 Log.d("tagv_click Button 1","On Button clicked");
             }
@@ -71,7 +70,6 @@ public class buttonFunctions {
                 Toast.makeText(activityAttribute, "الرجاء الإنتظار",
                         Toast.LENGTH_LONG).show();
 
-                requestObject.offButtonFunction(argOff);
 
                 //debugger message
                 Log.d("tagv_click Button 2","Off Button clicked");
@@ -122,5 +120,4 @@ public class buttonFunctions {
 
 
     //create object of http request class
-    requestFunctions requestObject=new requestFunctions(this.activityAttribute);
 }

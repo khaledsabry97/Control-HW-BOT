@@ -5,32 +5,33 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
-import android.text.Layout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
 import android.widget.TimePicker;
 
+import com.ashiaa.tanmo_app.Controllers.SendController;
 import com.ashiaa.tanmo_app.R;
 import com.xgc1986.ripplebutton.widget.RippleButton;
 
 
-public class main_menu_fragment extends Fragment {
+public class Home_fragment extends Fragment {
     ViewGroup periodViewGroup;
-    RippleButton startButton,stopButton,startPeriodButton, stopPeriodButton;
+    Button startButton,stopButton,startPeriodButton, stopPeriodButton;
     CheckBox periodCheckBox;
     TimePicker timePicker;
+    SendController sendController;
 
-
-    public main_menu_fragment() {
+    public Home_fragment() {
         // Required empty public constructor
     }
 
 
-    public static main_menu_fragment newInstance() {
-        main_menu_fragment fragment = new main_menu_fragment();
+    public static Home_fragment newInstance() {
+        Home_fragment fragment = new Home_fragment();
         return fragment;
     }
 
@@ -54,10 +55,15 @@ public class main_menu_fragment extends Fragment {
 
 
 
+
+        sendController = new SendController(this.getContext());
+        timePicker.setIs24HourView(true);
+
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //send start enigne
+                sendController.sendOn();
             }
         });
 
@@ -65,6 +71,7 @@ public class main_menu_fragment extends Fragment {
             @Override
             public void onClick(View view) {
                 //send stop
+                sendController.sendOff();
             }
         });
 
@@ -74,8 +81,7 @@ public class main_menu_fragment extends Fragment {
                 if(b == true)
                     periodViewGroup.setVisibility(View.VISIBLE);
                 else {
-                    periodViewGroup.setVisibility(View.INVISIBLE);
-                    getActivity().stopService()
+                    periodViewGroup.setVisibility(View.GONE);
 
                 }
 
