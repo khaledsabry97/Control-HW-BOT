@@ -5,4 +5,8 @@
     <string name="password"></string>
     <string name="device_id"></string>
     <string name="current_clock"></string>
+    <string name="period"></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

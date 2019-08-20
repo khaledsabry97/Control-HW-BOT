@@ -30,7 +30,7 @@ public class SendRequest {
     }
 
 
-    public void onButton(JSONObject jsonObject) {
+    public void send(JSONObject jsonObject) {
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(context);
 

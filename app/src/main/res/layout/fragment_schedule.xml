@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.main_menu_fragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <fragment
+            android:id="@+id/header_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:layout="@layout/header_fragement"></fragment>
+
+        <LinearLayout
+            android:layout_margin="5dp"
+
+            android:id="@+id/for_long"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/header_id">
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@id/days_id"
+                android:layout_gravity="center"
+                android:background="#000000"></ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/for_long"
+                android:layout_weight="0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="يعمل لمدة" />
+
+            <ImageView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_above="@id/days_id"
+                android:layout_gravity="center"
+
+                android:background="#000000"></ImageView>
+
+        </LinearLayout>
+        <TimePicker
+            android:id="@+id/datePicker1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/for_long"
+            android:timePickerMode="spinner"/>
+        <ImageView
+            android:id="@+id/sep2"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_above="@id/days_id"
+            android:layout_margin="20dp"
+
+            android:background="#000000"></ImageView>
+
+
+        <LinearLayout
+            android:id="@+id/days_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_above="@+id/sep1"
+            >
+
+
+            <CheckBox
+                android:id="@+id/sat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="sat" />
+
+            <CheckBox
+                android:id="@+id/sun"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="sun" />
+
+            <CheckBox
+                android:id="@+id/mon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="mon" />
+
+            <CheckBox
+                android:id="@+id/tue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="tue" />
+
+            <CheckBox
+                android:id="@+id/wed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="wed" />
+
+            <CheckBox
+                android:id="@+id/thr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="thr" />
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/sep1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_above="@id/switch_id"
+            android:layout_margin="20dp"
+            android:background="#000000"></ImageView>
+
+        <LinearLayout
+            android:id="@+id/switch_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+
+
+
+            <com.xgc1986.ripplebutton.widget.RippleButton
+                android:id="@+id/button_on"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="تشغيل"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                app:buttonColor="@android:color/holo_blue_dark"
+
+                app:rippleColor="@android:color/holo_blue_bright" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</FrameLayout>

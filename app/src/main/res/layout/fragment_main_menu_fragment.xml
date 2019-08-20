@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Views.main_menu_fragment"
+    android:background="@drawable/blue">
+    <fragment
+        android:id="@+id/header_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/header_fragement"></fragment>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/whole_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+
+            <LinearLayout
+                android:id="@+id/switch_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="8dp"
+                android:orientation="vertical"
+                >
+
+
+                <com.xgc1986.ripplebutton.widget.RippleButton
+                    android:id="@+id/button_on"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="فتح"
+                    android:textSize="50sp"
+                    android:textStyle="bold"
+                    app:buttonColor="@android:color/holo_blue_dark"
+                    app:rippleColor="@android:color/holo_blue_bright" />
+
+                <com.xgc1986.ripplebutton.widget.RippleButton
+                    android:id="@+id/button_off"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="غلق"
+                    android:textSize="50sp"
+                    android:textStyle="bold"
+                    app:buttonColor="@android:color/holo_red_dark"
+                    app:rippleColor="@android:color/darker_gray" />
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/switch_id"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:color="#ffff"
+                android:layoutDirection="rtl"
+                android:text="تشغيل لمدة زمنية "
+                android:textColor="#ffff"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/switch_id" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/period_layout"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/switch_id"
+            android:visibility="gone"
+            >
+            <TimePicker
+                android:id="@+id/timepicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="8dp"
+                android:timePickerMode="spinner"
+                android:visibility="visible"
+                />
+
+            <LinearLayout
+                android:layout_below="@id/timepicker"
+                android:id="@+id/period_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent"
+                >
+
+
+
+
+                <com.xgc1986.ripplebutton.widget.RippleButton
+                    android:id="@+id/period_button_off"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="إيقاف"
+                    android:textSize="50sp"
+                    android:textStyle="bold"
+                    app:buttonColor="@android:color/holo_red_dark"
+                    app:rippleColor="@android:color/darker_gray" />
+                <com.xgc1986.ripplebutton.widget.RippleButton
+                    android:id="@+id/period_button_on"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="بدء"
+                    android:textSize="50sp"
+                    android:textStyle="bold"
+                    app:buttonColor="@android:color/holo_blue_dark"
+                    app:rippleColor="@android:color/holo_blue_bright" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</FrameLayout>
