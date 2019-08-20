@@ -1,6 +1,7 @@
 package com.ashiaa.tanmo_app;
 
 import android.app.Activity;
+import android.content.Context;
 import android.media.MediaPlayer;
 import android.util.Log;
 import android.view.View;
@@ -13,18 +14,18 @@ public class buttonFunctions {
 
     public Activity activityAttribute;
 
-    //private final Context context;
+//    private final Context context;
 
     public buttonFunctions(Activity _activity) {
         this.activityAttribute = _activity;
-        //this.context = context;
+//        this.context = context;
     }
 
     //on button find
-    final Button onButton = (Button)activityAttribute.findViewById(R.id.button_on);
+    final Button onButton = activityAttribute.findViewById(R.id.button_on);
 
     //off button find
-    final Button offButton = (Button)activityAttribute.findViewById(R.id.button_off);
+    final Button offButton = activityAttribute.findViewById(R.id.button_off);
 
     public void OnButtonFunction()
     {
@@ -111,6 +112,7 @@ public class buttonFunctions {
             @Override
             public void onCompletion(MediaPlayer mp) {
                 // TODO Auto-generated method stub
+                Toast.makeText(activityAttribute, "sound Finished", Toast.LENGTH_SHORT).show();
                 mp.reset();
                 mp.release();
 

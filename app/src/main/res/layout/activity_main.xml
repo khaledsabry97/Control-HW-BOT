@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <com.xgc1986.ripplebutton.widget.RippleButton
@@ -14,6 +15,8 @@
         android:text="فتح"
         android:textSize="50sp"
         android:textStyle="bold"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         app:buttonColor="@android:color/holo_blue_dark"
         app:layout_constraintTop_toTopOf="parent"
         app:rippleColor="@android:color/holo_blue_bright" />
@@ -25,9 +28,95 @@
         android:text="غلق"
         android:textSize="50sp"
         android:textStyle="bold"
+        android:layout_marginBottom="8dp"
         app:buttonColor="@android:color/holo_red_dark"
         app:layout_constraintTop_toBottomOf="@id/button_on"
         app:rippleColor="@android:color/darker_gray" />
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner1_hours"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="@color/gray"
+                android:entries="@array/hours_array"
+                android:prompt="@string/H_symbol" />
+
+            <Spinner
+                android:id="@+id/spinner2_hours"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:background="@color/gray"
+                android:entries="@array/hours_array"
+                android:prompt="@string/H_symbol" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spinner1_minutes"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@color/gray"
+                android:entries="@array/Minutes_array"
+                android:prompt="@string/M_symbol" />
+
+            <Spinner
+                android:id="@+id/spinner2_minutes"
+                android:layout_width="0dp"
+                android:layout_height="160dp"
+                android:layout_margin="8dp"
+                android:layout_weight="1"
+                android:background="@color/gray"
+                android:entries="@array/Minutes_array"
+                android:prompt="@string/M_symbol" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:text="time for device to be turned on"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/gray"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="start timer"
+        android:textSize="20sp"
+        android:textColor="@color/gray"
+        android:background="@color/deep_purple"/>
+
+
+</LinearLayout>
