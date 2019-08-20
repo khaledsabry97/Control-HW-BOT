@@ -73,8 +73,11 @@ public class main_menu_fragment extends Fragment {
             public void onCheckedChanged(CompoundButton compoundButton, boolean b) {
                 if(b == true)
                     periodViewGroup.setVisibility(View.VISIBLE);
-                else
+                else {
                     periodViewGroup.setVisibility(View.INVISIBLE);
+                    getActivity().stopService()
+
+                }
 
             }
         });
