@@ -12,6 +12,7 @@ public class SaveAndRestore {
 
     private Activity activity;
     private  SharedPreferences sharedPref;
+
     public SaveAndRestore(Activity activity)
     {
         this.activity = activity;
