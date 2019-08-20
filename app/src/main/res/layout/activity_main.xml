@@ -51,7 +51,7 @@
             <Spinner
                 android:id="@+id/spinner1_hours"
                 android:layout_width="0dp"
-                android:layout_height="128dp"
+                android:layout_height="160dp"
                 android:layout_weight="1"
                 android:layout_margin="8dp"
                 android:background="@color/gray"
@@ -61,7 +61,7 @@
             <Spinner
                 android:id="@+id/spinner2_hours"
                 android:layout_width="0dp"
-                android:layout_height="128dp"
+                android:layout_height="160dp"
                 android:layout_weight="1"
                 android:layout_margin="8dp"
                 android:background="@color/gray"
@@ -79,7 +79,7 @@
             <Spinner
                 android:id="@+id/spinner1_minutes"
                 android:layout_width="0dp"
-                android:layout_height="128dp"
+                android:layout_height="160dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:background="@color/gray"
@@ -89,7 +89,7 @@
             <Spinner
                 android:id="@+id/spinner2_minutes"
                 android:layout_width="0dp"
-                android:layout_height="128dp"
+                android:layout_height="160dp"
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:background="@color/gray"
@@ -97,6 +97,26 @@
                 android:prompt="@string/M_symbol" />
         </LinearLayout>
     </LinearLayout>
+
+    <TextView
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:text="time for device to be turned on"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textColor="@color/gray"/>
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="start timer"
+        android:textSize="20sp"
+        android:textColor="@color/gray"
+        android:background="@color/deep_purple"/>
 
 
 </LinearLayout>
