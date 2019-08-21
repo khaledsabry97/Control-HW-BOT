@@ -10,6 +10,10 @@ public class BootCompletedIntentReceiver extends BroadcastReceiver {
         if ("android.intent.action.BOOT_COMPLETED".equals(intent.getAction())) {
             Intent pushIntent = new Intent(context, DailyService.class);
             context.startService(pushIntent);
+
+            Intent periodIntent = new Intent(context, PeriodService.class);
+            context.startService(periodIntent);
+
         }
     }
 }

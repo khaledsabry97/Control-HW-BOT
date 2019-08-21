@@ -1,11 +1,12 @@
 <resources>
     <string name="app_name">TANMO_app</string>
     <string name="ip">192.172.253</string>
-    <string name="user_name"></string>
-    <string name="password"></string>
-    <string name="device_id"></string>
-    <string name="current_clock"></string>
-    <string name="period"></string>
+    <string name="user_name">user_name</string>
+    <string name="password">password</string>
+    <string name="device_id">device_id</string>
+    <string name="current_clock">current_clock</string>
+    <string name="period">period</string>
+    <string name="end_period">end_period</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

@@ -92,10 +92,10 @@
                 android:id="@+id/timepicker"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-
                 android:layout_marginTop="8dp"
+                android:numbersSelectorColor="#ffff"
                 android:timePickerMode="spinner"
-                android:visibility="visible" />
+               />
 
             <LinearLayout
                 android:id="@+id/period_id"
@@ -132,6 +132,17 @@
                     app:rippleColor="@android:color/holo_blue_bright" />
 
             </LinearLayout>
+
+            <TextView
+                android:id="@+id/remaining_time_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/period_id"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text=""
+                android:textColor="#fff"
+                android:textSize="20sp" />
         </RelativeLayout>
     </LinearLayout>
 

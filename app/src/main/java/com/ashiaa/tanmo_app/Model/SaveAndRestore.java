@@ -18,11 +18,10 @@ public class SaveAndRestore {
     }
 
 
-    public boolean saveCredentials(String userName,String password,String deviceId)
+    public boolean saveCredentials(String password,String deviceId)
     {
         try {
             SharedPreferences.Editor editor = sharedPref.edit();
-            editor.putString(activity.getString(R.string.user_name), userName);
             editor.putString(activity.getString(R.string.password), password);
             editor.putString(activity.getString(R.string.device_id), deviceId);
             editor.commit();
@@ -95,6 +94,31 @@ public class SaveAndRestore {
 
         return cClock;
     }
+
+
+    public long getPeriodEndTime()
+    {
+        String endTime = sharedPref.getString(activity.getString(R.string.end_period), "");
+        return Long.valueOf(endTime);
+    }
+
+    public boolean setEndTime(long time)
+    {
+        try {
+            SharedPreferences.Editor editor = sharedPref.edit();
+            editor.putString(activity.getString(R.string.end_period), String.valueOf(time));
+            editor.commit();
+        }
+        catch (Exception e) {
+            return false;
+        }
+        return true;
+    }
+
+
+
+
+
 
 
 }

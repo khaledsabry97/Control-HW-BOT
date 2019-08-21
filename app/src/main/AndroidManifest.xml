@@ -35,6 +35,7 @@
         </receiver>
 
         <service android:name=".Services.DailyService"/>
+        <service android:name=".Services.PeriodService"/>
 
 
     </application>
