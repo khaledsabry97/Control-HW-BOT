@@ -10,6 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.ashiaa.tanmo_app.Views.AboutFragment;
 import com.ashiaa.tanmo_app.Views.ConfigurationFragment;
@@ -37,10 +38,6 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         header = findViewById(R.id.header_text_id);
         head = findViewById(R.id.header_id);
-        homeFragment = new Homefragment();
-        scheduleFragment = new ScheduleFragment();
-        configurationFragment = new ConfigurationFragment();
-        aboutFragment = new AboutFragment();
 
 
         navigate();
@@ -78,7 +75,8 @@ public class MainActivity extends AppCompatActivity {
                         if (aboutFragment == null)
                             aboutFragment = new AboutFragment();
                         fragment = aboutFragment;
-                        head.setVisibility(View.GONE);
+                        header.setText("من نحن");
+
                         break;
 
 
@@ -86,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
                         return false;
                 }
 
-                getSupportFragmentManager().beginTransaction().replace(R.id.main_frame_layout, fragment).addToBackStack(null).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.main_frame_layout, fragment).setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE).addToBackStack(null).commit();
                 return true;
             }
         });
