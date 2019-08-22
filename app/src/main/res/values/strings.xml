@@ -10,7 +10,7 @@
 
     <string name="H_symbol">H</string>
 
-    <integer-array name="hours_array">
+    <string-array name="hours_array">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -21,11 +21,20 @@
         <item>7</item>
         <item>8</item>
         <item>9</item>
-    </integer-array>
+    </string-array>
 
     <string name="M_symbol">M</string>
 
-    <integer-array name="Minutes_array">
+    <string-array name="Minutes_array">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="Minutes_array2">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -33,5 +42,8 @@
         <item>4</item>
         <item>5</item>
         <item>6</item>
-    </integer-array>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
 </resources>
