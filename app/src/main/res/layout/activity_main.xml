@@ -12,11 +12,11 @@
         android:id="@+id/button_on"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:text="فتح"
         android:textSize="50sp"
         android:textStyle="bold"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
         app:buttonColor="@android:color/holo_blue_dark"
         app:layout_constraintTop_toTopOf="parent"
         app:rippleColor="@android:color/holo_blue_bright" />
@@ -25,10 +25,10 @@
         android:id="@+id/button_off"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:text="غلق"
         android:textSize="50sp"
         android:textStyle="bold"
-        android:layout_marginBottom="8dp"
         app:buttonColor="@android:color/holo_red_dark"
         app:layout_constraintTop_toBottomOf="@id/button_on"
         app:rippleColor="@android:color/darker_gray" />
@@ -55,8 +55,8 @@
                 android:layout_weight="1"
                 android:layout_margin="8dp"
                 android:background="@color/gray"
-                android:entries="@array/hours_array"
-                android:prompt="@string/H_symbol" />
+                android:prompt="@string/H_symbol"
+                android:textAlignment="center"/>
 
             <Spinner
                 android:id="@+id/spinner2_hours"
@@ -65,8 +65,8 @@
                 android:layout_weight="1"
                 android:layout_margin="8dp"
                 android:background="@color/gray"
-                android:entries="@array/hours_array"
-                android:prompt="@string/H_symbol" />
+                android:prompt="@string/H_symbol"
+                android:textAlignment="center"/>
         </LinearLayout>
 
         <LinearLayout
@@ -83,8 +83,8 @@
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:background="@color/gray"
-                android:entries="@array/Minutes_array"
-                android:prompt="@string/M_symbol" />
+                android:prompt="@string/M_symbol"
+                android:textAlignment="center"/>
 
             <Spinner
                 android:id="@+id/spinner2_minutes"
@@ -93,8 +93,8 @@
                 android:layout_margin="8dp"
                 android:layout_weight="1"
                 android:background="@color/gray"
-                android:entries="@array/Minutes_array"
-                android:prompt="@string/M_symbol" />
+                android:prompt="@string/M_symbol"
+                android:textAlignment="center"/>
         </LinearLayout>
     </LinearLayout>
 
@@ -106,17 +106,18 @@
         android:layout_marginBottom="16dp"
         android:text="time for device to be turned on"
         android:textAlignment="center"
-        android:textSize="16sp"
-        android:textColor="@color/gray"/>
+        android:textColor="@color/gray"
+        android:textSize="16sp" />
+
     <Button
         android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="16dp"
+        android:background="@color/deep_purple"
         android:text="start timer"
-        android:textSize="20sp"
         android:textColor="@color/gray"
-        android:background="@color/deep_purple"/>
+        android:textSize="20sp" />
 
 
 </LinearLayout>
