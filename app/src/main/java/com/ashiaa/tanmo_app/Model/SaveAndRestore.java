@@ -18,10 +18,11 @@ public class SaveAndRestore {
     }
 
 
-    public boolean saveCredentials(String password,String deviceId)
+    public boolean saveCredentials(String ip,String password,String deviceId)
     {
         try {
             SharedPreferences.Editor editor = sharedPref.edit();
+            editor.putString(activity.getString(R.string.ip), ip);
             editor.putString(activity.getString(R.string.password), password);
             editor.putString(activity.getString(R.string.device_id), deviceId);
             editor.commit();

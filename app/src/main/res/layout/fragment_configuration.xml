@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_main"
+    tools:context=".Views.ConfigurationFragment">
+
+    <RelativeLayout
+        android:id="@+id/main_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_5sdp"
+
+        >
+
+        <LinearLayout
+            android:id="@+id/linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:layout_margin="@dimen/_3sdp">
+
+                <TextView
+                    style="@style/TextCategoryRound"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_3sdp"
+                    android:layout_weight=""
+                    android:text="عنوان الIP" />
+
+                <EditText
+                    android:id="@+id/ip"
+                    style="@style/TextCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ip"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <ImageView
+                style="@style/seperatorHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:layout_margin="@dimen/_3sdp">
+
+                <TextView
+                    style="@style/TextCategoryRound"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_3sdp"
+                    android:text="رقم الجهاز" />
+
+                <EditText
+                    android:id="@+id/device_id"
+                    style="@style/TextCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="3"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <ImageView
+                style="@style/seperatorHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></ImageView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
+                android:layout_margin="@dimen/_3sdp">
+
+                <TextView
+                    style="@style/TextCategoryRound"
+                    android:layout_width="@dimen/_70sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/_3sdp"
+                    android:text="كلمة السر" />
+
+                <EditText
+                    android:id="@+id/password"
+                    style="@style/TextCategory"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:text="5215161515"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <ImageView
+                style="@style/seperatorHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"></ImageView>
+
+        </LinearLayout>
+
+        <ImageView
+            style="@style/seperatorHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"></ImageView>
+
+        <LinearLayout
+            android:id="@+id/linear_layout_create"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear_layout"
+            android:layout_marginTop="@dimen/_20sdp"
+
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/save"
+                style="@style/TextCategoryRound"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_3sdp"
+                android:text="حفظ" />
+
+
+            />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>
