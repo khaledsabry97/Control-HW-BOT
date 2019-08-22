@@ -32,7 +32,7 @@ public class ConfigurationFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_configuration, container, false);
-        ip = view.findViewById(R.id.device_id);
+        ip = view.findViewById(R.id.ip);
         deviceId = view.findViewById(R.id.device_id);
         password = view.findViewById(R.id.password);
         save = view.findViewById(R.id.save);

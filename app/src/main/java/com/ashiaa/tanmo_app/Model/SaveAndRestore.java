@@ -50,8 +50,7 @@ public class SaveAndRestore {
     {
         String userName = "";
         try {
-            userName = activity.getResources().getString(R.string.user_name);
-            userName = sharedPref.getString(activity.getString(R.string.user_name), userName);
+            userName = sharedPref.getString(activity.getString(R.string.user_name), "");
 
         }
         catch (Exception e) {
@@ -62,8 +61,7 @@ public class SaveAndRestore {
     {
         String password = "";
         try {
-            password = activity.getResources().getString(R.string.password);
-            password = sharedPref.getString(activity.getString(R.string.password), password);
+            password = sharedPref.getString(activity.getString(R.string.password), "");
 
         }
         catch (Exception e) {
@@ -74,8 +72,7 @@ public class SaveAndRestore {
     {
         String deviceId = "";
         try {
-            deviceId = activity.getResources().getString(R.string.device_id);
-            deviceId = sharedPref.getString(activity.getString(R.string.device_id), deviceId);
+            deviceId = sharedPref.getString(activity.getString(R.string.device_id), "");
 
         }
         catch (Exception e) {

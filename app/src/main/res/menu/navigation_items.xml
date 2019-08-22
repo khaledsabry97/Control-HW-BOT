@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/action_search"
+    <item android:id="@+id/menu_main"
         android:title="main"
         android:icon="@drawable/ic_panorama_vertical_black_24dp" />
-    <item android:id="@+id/action_settings"
-        android:title="settings"
-        android:icon="@drawable/ic_settings_black_24dp" />
-    <item android:id="@+id/action_navigation"
+    <item android:id="@+id/menu_schedule"
         android:title="about us"
         android:icon="@drawable/ic_info_outline_black_24dp" />
+    <item android:id="@+id/menu_settings"
+        android:title="settings"
+        android:icon="@drawable/ic_settings_black_24dp" />
+    <item android:id="@+id/menu_about"
+        android:title="about us"
+        android:icon="@drawable/ic_info_outline_black_24dp" />
+
 </menu>

@@ -1,22 +1,32 @@
 package com.ashiaa.tanmo_app;
 
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.os.PersistableBundle;
-import android.view.FrameMetrics;
+import android.view.MenuItem;
+import android.view.View;
 import android.widget.FrameLayout;
-import android.widget.Toast;
+import android.widget.TextView;
 
-import com.ashiaa.tanmo_app.Views.Home_fragment;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+
+import com.ashiaa.tanmo_app.Views.AboutFragment;
+import com.ashiaa.tanmo_app.Views.ConfigurationFragment;
+import com.ashiaa.tanmo_app.Views.Homefragment;
+import com.ashiaa.tanmo_app.Views.ScheduleFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 
 public class MainActivity extends AppCompatActivity {
-FrameLayout frameLayout;
-BottomNavigationView bottomNavigationView;
-
+    FrameLayout frameLayout;
+    TextView header;
+    View head;
+    BottomNavigationView bottomNavigationView;
+    Homefragment homeFragment;
+    ScheduleFragment scheduleFragment;
+    ConfigurationFragment configurationFragment;
+    AboutFragment aboutFragment;
 
 
     @Override
@@ -25,65 +35,68 @@ BottomNavigationView bottomNavigationView;
         setContentView(R.layout.activity_main_layout);
         frameLayout = findViewById(R.id.main_frame_layout);
         bottomNavigationView = findViewById(R.id.bottom_navigation);
+        header = findViewById(R.id.header_text_id);
+        head = findViewById(R.id.header_id);
+        homeFragment = new Homefragment();
+        scheduleFragment = new ScheduleFragment();
+        configurationFragment = new ConfigurationFragment();
+        aboutFragment = new AboutFragment();
 
-        bottomNavigationView.getSelectedItemId()
 
-
-        getSupportFragmentManager().beginTransaction().replace(R.id.main_frame_layout, Home_fragment.newInstance()).addToBackStack(null).commit();
         navigate();
     }
 
     private void navigate() {
-        int id = bottomNavigationView.getSelectedItemId();
 
-        switch (id)
-        {
-            case 0:
+        bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                int id = menuItem.getItemId();
 
-                break;
-            case 1:
+                Fragment fragment = null;
+                head.setVisibility(View.VISIBLE);
+                switch (id) {
+                    case R.id.menu_main:
+                        if (homeFragment == null)
+                            homeFragment = new Homefragment();
+                        fragment = homeFragment;
+                        header.setText("القائمة الرئيسية");
+                        break;
+                    case R.id.menu_schedule:
+                        if (scheduleFragment == null)
+                            scheduleFragment = new ScheduleFragment();
+                        fragment = scheduleFragment;
+                        header.setText("ضبط بمواعيد يومية");
+                        break;
+                    case R.id.menu_settings:
+                        if (configurationFragment == null)
+                            configurationFragment = new ConfigurationFragment();
+                        fragment = configurationFragment;
+                        header.setText("الإعدادات");
+                        break;
+                    case R.id.menu_about:
+                        if (aboutFragment == null)
+                            aboutFragment = new AboutFragment();
+                        fragment = aboutFragment;
+                        head.setVisibility(View.GONE);
+                        break;
 
-                break;
-            case 2:
 
-                break;
-            case 3:
+                    default:
+                        return false;
+                }
 
-                break;
-
-
-            default:
-
-        }
-    }
+                getSupportFragmentManager().beginTransaction().replace(R.id.main_frame_layout, fragment).addToBackStack(null).commit();
+                return true;
+            }
+        });
 
 
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState); // the UI component values are saved here.
-        outState.putDouble("VALUE", liter);
-        Toast.makeText(this, "Activity state saved", Toast.LENGTH_LONG).show();
-    }
+        bottomNavigationView.setSelectedItemId(R.id.menu_main);
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-
-
-    }
-
-    @Override
-    public void onCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
-        super.onCreate(savedInstanceState, persistentState);
     }
 
     //onCreate end
-
-
-
-
-
-
 
 
 }       //MainActivity end

@@ -16,6 +16,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.ashiaa.tanmo_app.Model.Constants;
 
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.HashMap;
@@ -43,8 +44,12 @@ public class SendRequest {
                     public void onResponse(JSONObject response) {
                         Log.d("[Received Successfully]", response.toString());
                         //Toast message
-                        Toast.makeText(context, "تم فتح الجهاز",
-                                Toast.LENGTH_LONG).show();
+                        try {
+                            Toast.makeText(context, response.getString("msg"),
+                                    Toast.LENGTH_LONG).show();
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
                         // Display the response in debugger
                         Log.d("tagv_response", "Response is: " + response);
 
@@ -62,15 +67,7 @@ public class SendRequest {
             }
         }) {
 
-            /**
-             * Passing some request headers
-             * */
-            @Override
-            public Map<String, String> getHeaders() throws AuthFailureError {
-                HashMap<String, String> headers = new HashMap<String, String>();
-                headers.put("Content-Type", "application/json; charset=utf-8");
-                return headers;
-            }
+
 
 
         };
