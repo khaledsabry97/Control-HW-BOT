@@ -10,8 +10,6 @@
     >
 
 
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -66,6 +64,7 @@
                 android:layout_marginEnd="8dp"
                 android:layout_marginRight="8dp"
                 android:color="#ffff"
+                android:buttonTint="@color/white"
                 android:layoutDirection="rtl"
                 android:text="تشغيل لمدة زمنية "
                 android:textColor="#ffff"
@@ -81,23 +80,67 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:visibility="gone"
+            android:visibility="visible"
             app:layout_constraintTop_toBottomOf="@id/switch_id">
 
-            <TimePicker
-                android:id="@+id/timepicker"
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/time"
+
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:numbersSelectorColor="#ffff"
-                android:timePickerMode="spinner"
-               />
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/ho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="32dp"
+                    android:text="ساعة"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintBottom_toTopOf="@+id/timepicker"
+                    app:layout_constraintStart_toStartOf="@+id/timepicker" />
+
+                <TextView
+                    android:id="@+id/mn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginRight="32dp"
+                    android:text="دقيقة"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintBottom_toTopOf="@+id/timepicker"
+                    app:layout_constraintEnd_toEndOf="@+id/timepicker" />
+
+
+                <TimePicker
+
+                    android:id="@+id/timepicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:foregroundGravity="center"
+                    android:numbersInnerTextColor="@color/white"
+                    android:numbersTextColor="@color/white"
+                    android:timePickerMode="spinner"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ho" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
 
             <LinearLayout
                 android:id="@+id/period_id"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/timepicker"
+                android:layout_below="@id/time"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"

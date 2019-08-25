@@ -8,6 +8,20 @@
     <string name="period">period</string>
     <string name="end_period">end_period</string>
 
+
+    <string name="start_daily_hour">start_daily_hour</string>
+    <string name="start_daily_min">start_daily_min</string>
+    <string name="period_daily_hour">period_daily_hour</string>
+    <string name="period_daily_min">period_daily_min</string>
+    <string name="sat">sat</string>
+    <string name="sun">sun</string>
+    <string name="mon">mon</string>
+    <string name="tue">tue</string>
+    <string name="wed">wed</string>
+    <string name="thr">thr</string>
+    <string name="fri">fri</string>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="company_name">aSHiAa</string>

@@ -4,156 +4,322 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/blue"
+
     tools:context=".Views.Homefragment">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
 
-        <fragment
-            android:id="@+id/header_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:layout="@layout/header_fragement"></fragment>
-
         <LinearLayout
-            android:layout_margin="5dp"
-
-            android:id="@+id/for_long"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_below="@+id/header_id">
-            <ImageView
-                android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:isScrollContainer="true"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/for_long"
                 android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:layout_above="@id/days_id"
-                android:layout_gravity="center"
-                android:background="#000000"></ImageView>
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header_id"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_above="@id/days_id"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/white"></ImageView>
+
+                <TextView
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/for_long"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0"
+                    android:text="يبدأ الساعة"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_above="@id/days_id"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+
+                    android:background="@color/white"></ImageView>
+
+            </LinearLayout>
+
+
+            <TimePicker
+                android:id="@+id/start_time_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/for_long"
+                android:numbersInnerTextColor="@color/white"
+                android:numbersTextColor="@color/white"
+                android:timePickerMode="spinner" />
+
+            <LinearLayout
+                android:id="@+id/days"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header_id"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_above="@id/days_id"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/white"></ImageView>
+
+                <TextView
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/for_long"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0"
+                    android:text="أيام التشغيل"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_above="@id/days_id"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+
+                    android:background="@color/white"></ImageView>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/days_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layoutDirection="rtl">
+
+
+                <CheckBox
+                    android:id="@+id/sat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/white"
+                    android:layoutDirection="rtl"
+                    android:text="سبت"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/sun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/white"
+                    android:layoutDirection="rtl"
+                    android:text="أحد"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/mon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/white"
+                    android:layoutDirection="rtl"
+                    android:text="إثنين"
+
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/tue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/white"
+                    android:layoutDirection="rtl"
+                    android:text="ثلاثاء"
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/wed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/white"
+                    android:layoutDirection="rtl"
+                    android:text="أربع"
+
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/thr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/white"
+                    android:layoutDirection="rtl"
+                    android:text="خميس"
+
+                    android:textColor="@color/white" />
+
+                <CheckBox
+                    android:id="@+id/fri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/white"
+                    android:layoutDirection="rtl"
+                    android:text="جمعة"
+
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/period"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header_id"
+                android:layout_margin="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="8dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_above="@id/days_id"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@color/white"></ImageView>
+
+                <TextView
+                    style="@style/TextCategory"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/for_long"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0"
+                    android:text=" يعمل لمدة"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_above="@id/days_id"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+
+                    android:background="@color/white"></ImageView>
+
+            </LinearLayout>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/time"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/ho"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginLeft="32dp"
+                    android:text="ساعة"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintBottom_toTopOf="@+id/end_time_id"
+                    app:layout_constraintStart_toStartOf="@+id/end_time_id" />
+
+                <TextView
+                    android:id="@+id/mn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginRight="32dp"
+                    android:text="دقيقة"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_10sdp"
+                    app:layout_constraintBottom_toTopOf="@+id/end_time_id"
+                    app:layout_constraintEnd_toEndOf="@+id/end_time_id" />
+
+
+                <TimePicker
+
+                    android:id="@+id/end_time_id"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:foregroundGravity="center"
+                    android:numbersSelectorColor="#ffff"
+                    android:timePickerMode="spinner"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ho" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:id="@+id/switch_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="bottom"
+                android:orientation="horizontal">
+
+
+                <com.xgc1986.ripplebutton.widget.RippleButton
+                    android:id="@+id/save_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="حفظ"
+                    android:textSize="50sp"
+                    android:textStyle="bold"
+                    app:buttonColor="@android:color/holo_blue_dark"
+
+                    app:rippleColor="@android:color/holo_blue_bright" />
+            </LinearLayout>
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/for_long"
-                android:layout_weight="0"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="10dp"
-                android:text="يعمل لمدة" />
-
-            <ImageView
-                android:layout_weight="1"
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:layout_above="@id/days_id"
-                android:layout_gravity="center"
-
-                android:background="#000000"></ImageView>
-
-        </LinearLayout>
-        <TimePicker
-            android:id="@+id/datePicker1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/for_long"
-            android:timePickerMode="spinner"/>
-        <ImageView
-            android:id="@+id/sep2"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_above="@id/days_id"
-            android:layout_margin="20dp"
-
-            android:background="#000000"></ImageView>
-
-
-        <LinearLayout
-            android:id="@+id/days_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="2dp"
-            android:layout_marginRight="2dp"
-            android:layout_above="@+id/sep1"
-            >
-
-
-            <CheckBox
-                android:id="@+id/sat"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="sat" />
-
-            <CheckBox
-                android:id="@+id/sun"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="sun" />
-
-            <CheckBox
-                android:id="@+id/mon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="mon" />
-
-            <CheckBox
-                android:id="@+id/tue"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="tue" />
-
-            <CheckBox
-                android:id="@+id/wed"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="wed" />
-
-            <CheckBox
-                android:id="@+id/thr"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="thr" />
-        </LinearLayout>
-
-
-        <ImageView
-            android:id="@+id/sep1"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_above="@id/switch_id"
-            android:layout_margin="20dp"
-            android:background="#000000"></ImageView>
-
-        <LinearLayout
-            android:id="@+id/switch_id"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_gravity="bottom"
-            android:orientation="horizontal">
-
-
-
-            <com.xgc1986.ripplebutton.widget.RippleButton
-                android:id="@+id/button_on"
+                android:layout_margin="@dimen/_5sdp"
+                android:id="@+id/info"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="تشغيل"
-                android:textSize="50sp"
-                android:textStyle="bold"
-                app:buttonColor="@android:color/holo_blue_dark"
+                android:gravity="start"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_10sdp"
+                tools:text="سيعمل الجهاز يوم السبت و الأحد والإثنين والثلاثاء الساعة الخامسة صباحًا ولمدة 2 ساعة و 15 دقيقة" />
 
-                app:rippleColor="@android:color/holo_blue_bright" />
         </LinearLayout>
 
-    </RelativeLayout>
-
+    </ScrollView>
 
 </FrameLayout>

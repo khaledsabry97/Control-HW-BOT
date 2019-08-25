@@ -118,7 +118,6 @@ public class PeriodService extends Service {
                         timeRemaining += Integer.valueOf(sec - 60*min).toString() + "ثانية ";
                     }
 
-                    //String st =   "سيغلق الجهاز بعد " + timeRemaining + " دقيقة";
                     builder.setContentText(timeRemaining);
                     Intent intent = new Intent("PeriodService"); //FILTER is a string to identify this intent
                     intent.putExtra("time", timeRemaining);
