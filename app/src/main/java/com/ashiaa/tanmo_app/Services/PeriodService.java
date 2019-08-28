@@ -65,7 +65,7 @@ public class PeriodService extends Service {
 
 
     private void addNotification() {
-        String channelId = "12";
+        String channelId = "0";
         String title = getApplicationContext().getString(R.string.app_name);
         final NotificationCompat.Builder builder =
                 new NotificationCompat.Builder(this);
@@ -84,9 +84,9 @@ public class PeriodService extends Service {
 
         builder.setSmallIcon(R.drawable.ic_info_outline_black_24dp)
                 .setContentTitle(title)
-                .setDefaults(Notification.DEFAULT_LIGHTS | Notification.DEFAULT_SOUND)
                 .setContentText("This is a test notification");
         builder.setOngoing(true);
+        builder.setOnlyAlertOnce(true);
         Intent notificationIntent = new Intent(this, MainActivity.class);
         PendingIntent contentIntent = PendingIntent.getActivity(this, 0, notificationIntent,
                 PendingIntent.FLAG_UPDATE_CURRENT);
@@ -105,7 +105,6 @@ public class PeriodService extends Service {
         final Context context = getApplicationContext();
         final SaveAndRestore saveAndRestore = new SaveAndRestore(context);
         final Timer timer = new Timer();
-
         final TimerTask task = new TimerTask() {
             @Override
             public void run() {
@@ -119,6 +118,7 @@ public class PeriodService extends Service {
                     timer.cancel();
                     timer.purge();
                     sendController.sendOff();
+                    saveAndRestore.setEndTime(-1);
                     stopSelf();
 
                 } else {
@@ -147,6 +147,6 @@ public class PeriodService extends Service {
             }
         };
 
-        timer.schedule(task, 0, 10);
+        timer.schedule(task, 0, 1000);
     }
 }

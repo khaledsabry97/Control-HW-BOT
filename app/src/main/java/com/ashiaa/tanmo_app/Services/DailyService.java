@@ -21,13 +21,14 @@ public class DailyService extends Service {
     public void onCreate() {
         super.onCreate();
         saveAndRestore = new SaveAndRestore(getApplicationContext());
-        startAlarm(true,true);
     }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
 
         Toast.makeText(this, "Service Started", Toast.LENGTH_LONG).show();
+        startAlarm(true,true);
+
         return Service.START_STICKY;
     }
 
@@ -59,10 +60,12 @@ public class DailyService extends Service {
         myIntent = new Intent(getApplicationContext(), AlarmNotificationReceiver.class);
         pendingIntent = PendingIntent.getBroadcast(getApplicationContext(),0,myIntent,0);
 
+        Toast.makeText(getApplicationContext(),"hello",Toast.LENGTH_SHORT).show();
 
         if(!isRepeat)
             manager.set(AlarmManager.RTC_WAKEUP, SystemClock.elapsedRealtime(),pendingIntent);
         else
             manager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), AlarmManager.INTERVAL_DAY,pendingIntent);
+        stopSelf();
     }
 }
