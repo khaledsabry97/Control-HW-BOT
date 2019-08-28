@@ -1,7 +1,12 @@
 package com.ashiaa.tanmo_app.Views;
 
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,10 +18,14 @@ import android.widget.Toast;
 
 import androidx.fragment.app.Fragment;
 
+import com.ashiaa.tanmo_app.MainActivity;
 import com.ashiaa.tanmo_app.Model.SaveAndRestore;
 import com.ashiaa.tanmo_app.R;
+import com.ashiaa.tanmo_app.Services.AlarmNotificationReceiver;
+import com.ashiaa.tanmo_app.Services.DailyService;
 
 import java.util.ArrayList;
+import java.util.Calendar;
 
 
 public class ScheduleFragment extends Fragment {
@@ -76,6 +85,7 @@ public class ScheduleFragment extends Fragment {
                 saveAndRestore.saveDayState(getString(R.string.fri), fri.isChecked());
                 Toast.makeText(getContext(), "تم الحفظ بنجاح!", Toast.LENGTH_SHORT).show();
                 updateTextInfo();
+                getActivity().startService(new Intent(getContext(), DailyService.class));
             }
         });
 
@@ -183,5 +193,8 @@ public class ScheduleFragment extends Fragment {
         updateTextInfo();
 
     }
+
+
+
 }
 

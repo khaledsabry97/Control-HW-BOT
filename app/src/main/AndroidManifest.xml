@@ -3,6 +3,9 @@
     package="com.ashiaa.tanmo_app">
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -42,6 +45,12 @@
         <service android:name=".Services.DailyService"/>
         <service android:name=".Services.PeriodService"/>
 
+        <receiver android:name=".Services.AlarmNotificationReceiver"/>
+
+        <service
+            android:name=".Services.DailyService"
+            android:enabled="true"
+            android:exported="true"></service>
 
     </application>
 

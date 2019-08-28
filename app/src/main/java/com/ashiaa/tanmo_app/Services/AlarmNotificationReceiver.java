@@ -9,7 +9,10 @@ import android.content.Intent;
 import androidx.core.app.NotificationCompat;
 
 import com.ashiaa.tanmo_app.MainActivity;
+import com.ashiaa.tanmo_app.Model.SaveAndRestore;
 import com.ashiaa.tanmo_app.R;
+
+import java.util.Calendar;
 
 import static android.app.PendingIntent.FLAG_ONE_SHOT;
 
@@ -21,25 +24,21 @@ public class AlarmNotificationReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context);
+        SaveAndRestore saveAndRestore = new SaveAndRestore(context);
 
-        Intent myIntent = new Intent(context, MainActivity.class);
-        PendingIntent pendingIntent = PendingIntent.getActivity(
-                context,
-                0,
-                myIntent,
-                FLAG_ONE_SHOT );
 
-        builder.setAutoCancel(true)
-                .setDefaults(Notification.DEFAULT_ALL)
-                .setWhen(System.currentTimeMillis())
-                .setSmallIcon(R.mipmap.ic_launcher)
-                .setContentTitle("Zodiac")
-                .setContentIntent(pendingIntent)
-                .setContentText("Check out your horoscope")
-                .setDefaults(Notification.DEFAULT_LIGHTS | Notification.DEFAULT_SOUND)
-                .setContentInfo("Info");
 
-        NotificationManager notificationManager = (NotificationManager)context.getSystemService(Context.NOTIFICATION_SERVICE);
-        notificationManager.notify(1,builder.build());
+
+
+        Calendar calendar = Calendar.getInstance();
+
+        String[] days = new String[] { context.getString(R.string.sun), context.getString(R.string.mon), context.getString(R.string.tue), context.getString(R.string.wed), context.getString(R.string.thr), context.getString(R.string.fri), context.getString(R.string.sat) };
+
+        String day = days[calendar.get(Calendar.DAY_OF_WEEK)];
+        if(saveAndRestore.getDayState(day) == false)
+            return;
+
+     Intent intent1 = new Intent(context,PeriodService.class);
+     context.startService(intent1);
     }
 }
