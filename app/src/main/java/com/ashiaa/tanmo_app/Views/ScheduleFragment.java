@@ -58,6 +58,9 @@ public class ScheduleFragment extends Fragment {
         return view;
     }
 
+    /**
+     * setup your views at the begining
+     */
     private void configureViews() {
         save.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -78,7 +81,9 @@ public class ScheduleFragment extends Fragment {
 
     }
 
-
+    /**
+     * update info text whenever you save the setup
+     */
     void updateTextInfo() {
         String inf = "";
         ArrayList<String> days = new ArrayList<>();
@@ -153,9 +158,12 @@ public class ScheduleFragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        checkLastState();
+        checkLastState(); //so when Fragment get pause and restart he check the last state
     }
 
+    /**
+     * to restore all the required settings and ui when you open the fragment
+     */
     private void checkLastState() {
         startTime.setCurrentHour(saveAndRestore.getDailyClockHour());
         startTime.setCurrentMinute(saveAndRestore.getDailyClockMin());

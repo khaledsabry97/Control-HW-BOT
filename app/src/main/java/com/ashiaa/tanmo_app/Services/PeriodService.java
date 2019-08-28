@@ -21,6 +21,9 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.util.Timer;
 import java.util.TimerTask;
 
+/**
+ * this service working for a period and then cancel itself and sendOff to the device
+ */
 public class PeriodService extends Service {
     NotificationManager manager;
     SendController sendController;

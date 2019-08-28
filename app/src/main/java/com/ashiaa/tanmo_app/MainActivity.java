@@ -43,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
         navigate();
     }
 
+    /**
+     * the navigation to all the fragments in the app
+     */
     private void navigate() {
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {

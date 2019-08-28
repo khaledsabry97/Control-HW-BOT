@@ -9,6 +9,9 @@ import com.ashiaa.tanmo_app.Services.BootCompletedIntentReceiver;
 
 import java.util.TreeMap;
 
+/**
+ * responsible for all the save and restore from disk
+ */
 public class SaveAndRestore {
     private Context activity;
     private  SharedPreferences sharedPref;
@@ -19,6 +22,13 @@ public class SaveAndRestore {
     }
 
 
+    /**
+     * save all the credentials
+     * @param ip //ip of the device
+     * @param password //password of the device
+     * @param deviceId // device id
+     * @return
+     */
     public boolean saveCredentials(String ip,String password,String deviceId)
     {
         try {
@@ -34,19 +44,13 @@ public class SaveAndRestore {
         return true;
     }
 
-    public boolean saveCurrentClock(String cClock)
-    {
-        try {
-            SharedPreferences.Editor editor = sharedPref.edit();
-            editor.putString(activity.getString(R.string.user_name), cClock);
-            editor.commit();
-        }
-        catch (Exception e) {
-            return false;
-        }
-        return true;
-    }
 
+    /**
+     * use it to save the clock where every selected days you chose will start on
+     * @param hour
+     * @param min
+     * @return
+     */
     public boolean saveDailyClock(int hour,int min)
     {
         try {
@@ -61,6 +65,12 @@ public class SaveAndRestore {
         return true;
     }
 
+    /**
+     * to save the period of the time to set it off after every selected day
+     * @param hour
+     * @param min
+     * @return
+     */
     public boolean saveDailyPeriod(int hour,int min)
     {
         try {
@@ -75,6 +85,12 @@ public class SaveAndRestore {
         return true;
     }
 
+    /**
+     * what are the days the device will work in it
+     * @param day
+     * @param state
+     * @return
+     */
     public boolean saveDayState(String day,boolean state)
     {
         try {
@@ -154,13 +170,7 @@ public class SaveAndRestore {
         String ip = activity.getResources().getString(R.string.ip);
         return ip;
     }
-    public String getCclock()
-    {
-        String cClock = activity.getResources().getString(R.string.current_clock);
-        cClock = sharedPref.getString(activity.getString(R.string.current_clock), cClock);
 
-        return cClock;
-    }
 
 
     public long getPeriodEndTime()

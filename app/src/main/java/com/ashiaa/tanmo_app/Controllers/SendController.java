@@ -9,6 +9,9 @@ import com.ashiaa.tanmo_app.Model.SaveAndRestore;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+/**
+ * views contact with the sendController whenever they want to send a message or request
+ */
 public class SendController extends Controller {
     final static String userName = "user_name";
     final static String password = "password";
@@ -26,6 +29,9 @@ public class SendController extends Controller {
         sendRequest.send(jsonObject);
     }
 
+    /**
+     * send to the device to open
+     */
     public void sendOn() {
         SaveAndRestore saveAndRestore = new SaveAndRestore(activity);
         JSONObject jsonObject = new JSONObject();
@@ -40,6 +46,9 @@ public class SendController extends Controller {
         send(jsonObject);
     }
 
+    /**
+     * send to the device to close
+     */
     public void sendOff() {
         SaveAndRestore saveAndRestore = new SaveAndRestore(activity);
         JSONObject jsonObject = new JSONObject();
@@ -54,6 +63,7 @@ public class SendController extends Controller {
         send(jsonObject);
     }
 
+    @Deprecated
     public void sendPeriod(int time) {
         SaveAndRestore saveAndRestore = new SaveAndRestore(activity);
         JSONObject jsonObject = new JSONObject();

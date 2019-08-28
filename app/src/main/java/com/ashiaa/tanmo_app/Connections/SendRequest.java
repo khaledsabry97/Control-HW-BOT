@@ -22,6 +22,9 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ * this is the interface of the app with the iot device you can send and receive from the response from it
+ */
 public class SendRequest {
 
     private final Context context;
