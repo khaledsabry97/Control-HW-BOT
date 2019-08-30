@@ -18,7 +18,7 @@ public class SaveAndRestore {
     public SaveAndRestore(Context activity)
     {
         this.activity = activity;
-        sharedPref = activity.getSharedPreferences("hello",Context.MODE_PRIVATE);
+        sharedPref = activity.getSharedPreferences("hello3",Context.MODE_PRIVATE);
     }
 
 
@@ -175,15 +175,14 @@ public class SaveAndRestore {
 
     public long getPeriodEndTime()
     {
-        String endTime = sharedPref.getString(activity.getString(R.string.end_period), "");
-        return Long.valueOf(endTime);
+        return sharedPref.getLong(activity.getString(R.string.end_period), -1);
     }
 
     public boolean setEndTime(long time)
     {
         try {
             SharedPreferences.Editor editor = sharedPref.edit();
-            editor.putString(activity.getString(R.string.end_period), String.valueOf(time));
+            editor.putLong(activity.getString(R.string.end_period), time);
             editor.commit();
         }
         catch (Exception e) {

@@ -9,6 +9,7 @@ import android.widget.Toast;
 
 import androidx.core.app.NotificationCompat;
 
+import com.ashiaa.tanmo_app.Controllers.SendController;
 import com.ashiaa.tanmo_app.MainActivity;
 import com.ashiaa.tanmo_app.Model.SaveAndRestore;
 import com.ashiaa.tanmo_app.R;
@@ -27,6 +28,7 @@ public class AlarmNotificationReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         NotificationCompat.Builder builder = new NotificationCompat.Builder(context);
         SaveAndRestore saveAndRestore = new SaveAndRestore(context);
+        SendController sendController = new SendController(context);
 
 
 
@@ -46,7 +48,7 @@ public class AlarmNotificationReceiver extends BroadcastReceiver {
         Toast.makeText(context,day,Toast.LENGTH_SHORT).show();
 
         saveAndRestore.setEndTime(time);
-
+        sendController.sendOn();
         Intent intent1 = new Intent(context,PeriodService.class);
 
         context.startService(intent1);

@@ -105,6 +105,7 @@ remainingTime = view.findViewById(R.id.remaining_time_id);
             public void onClick(View view) {
                 //send stop
                 sendController.sendOff();
+                stopPeriod();
             }
         });
 

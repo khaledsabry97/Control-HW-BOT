@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         header = findViewById(R.id.header_text_id);
         head = findViewById(R.id.header_id);
+        homeFragment = new Homefragment();
+        scheduleFragment = new ScheduleFragment();
+        configurationFragment = new ConfigurationFragment();
+        aboutFragment = new AboutFragment();
 
 
         navigate();

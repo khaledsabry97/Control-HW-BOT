@@ -112,7 +112,7 @@ public class ScheduleFragment extends Fragment {
         if (fri.isChecked())
             days.add("الجمعة");
 
-        if(days.size() <0)
+        if(days.size() <=0)
             return;
 
         inf +="سيعمل الجهاز يوم ";
