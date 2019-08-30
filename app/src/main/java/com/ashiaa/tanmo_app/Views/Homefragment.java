@@ -146,6 +146,7 @@ remainingTime = view.findViewById(R.id.remaining_time_id);
         stopPeriodButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                sendController.sendOff();
                 stopPeriod();
 
             }

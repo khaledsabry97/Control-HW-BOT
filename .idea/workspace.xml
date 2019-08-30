@@ -68,9 +68,7 @@
     <last-search-timestamp>1566464697195</last-search-timestamp>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e1513f1-a867-4501-9d11-6cb5fe50768a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java" afterDir="false" />
-    </list>
+    <list default="true" id="0e1513f1-a867-4501-9d11-6cb5fe50768a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="BaytrailA010AD37" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_API_27" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
