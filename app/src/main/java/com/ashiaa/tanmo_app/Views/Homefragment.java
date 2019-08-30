@@ -139,6 +139,7 @@ remainingTime = view.findViewById(R.id.remaining_time_id);
                      min = timePicker.getCurrentMinute()*60*1000;
                 }
                 saveAndRestore.setEndTime(System.currentTimeMillis() +hour+min);
+                sendController.sendOn();
                 getActivity().startService(periodIntent);
             }
         });
