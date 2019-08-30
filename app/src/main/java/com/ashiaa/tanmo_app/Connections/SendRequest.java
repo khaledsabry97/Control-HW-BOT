@@ -37,10 +37,10 @@ public class SendRequest {
     public void send(JSONObject jsonObject) {
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(context);
-
+Constants constants = new Constants(context);
 
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(Request.Method.POST,
-                Constants.URL, jsonObject,
+                constants.getUrl(), jsonObject,
                 new Response.Listener<JSONObject>() {
 
                     @Override

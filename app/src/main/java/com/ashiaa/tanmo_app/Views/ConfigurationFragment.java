@@ -65,7 +65,7 @@ public class ConfigurationFragment extends Fragment {
     private void save()
     {
 
-        saveAndRestore.saveCredentials(ip.getText().toString(),password.getText().toString(),password.getText().toString());
+        saveAndRestore.saveCredentials(ip.getText().toString(),password.getText().toString(),deviceId.getText().toString());
 
         Toast.makeText(getContext(),"تم الحفظ بنجاح",Toast.LENGTH_SHORT).show();
 
