@@ -10,7 +10,7 @@
     android:text="القائمة الرئيسية"
     android:textSize="50sp"
     android:textColor="#fff"
-    android:background="#000"
+    android:background="@color/header_color"
     android:gravity="center"
     android:textStyle="bold"/>
 </LinearLayout>

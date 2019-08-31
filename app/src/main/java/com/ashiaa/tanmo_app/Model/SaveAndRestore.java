@@ -167,7 +167,7 @@ public class SaveAndRestore {
 
     public String getIp()
     {
-        String ip = activity.getResources().getString(R.string.ip);
+        String ip =sharedPref.getString(activity.getString(R.string.ip), activity.getResources().getString(R.string.ip));
         return ip;
     }
 

@@ -112,8 +112,10 @@ public class ScheduleFragment extends Fragment {
         if (fri.isChecked())
             days.add("الجمعة");
 
-        if(days.size() <=0)
+        if(days.size() <=0) {
+            info.setText("");
             return;
+        }
 
         inf +="سيعمل الجهاز يوم ";
         inf += days.get(0);
@@ -124,7 +126,9 @@ public class ScheduleFragment extends Fragment {
         }
         inf += "\nالساعة ";
         int h = saveAndRestore.getDailyClockHour();
-        int m = saveAndRestore.getDailyClockMin();
+        String m = String.valueOf(saveAndRestore.getDailyClockMin());
+        if(m.length() == 1)
+            m = "0"+m;
         if(h == 0)
         {
             inf +=String.valueOf(12) +":"+ String.valueOf(m);

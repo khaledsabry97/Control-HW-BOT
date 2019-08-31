@@ -27,6 +27,7 @@ import java.util.TimerTask;
 public class PeriodService extends Service {
     NotificationManager manager;
     SendController sendController;
+    int state;
 
     @Override
     public void onCreate() {
@@ -35,6 +36,7 @@ public class PeriodService extends Service {
 
         manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
         sendController = new SendController(getApplicationContext());
+        state = 0;
         addNotification();
 
 
@@ -53,6 +55,7 @@ public class PeriodService extends Service {
         manager.cancel(0);
         Intent intent = new Intent("PeriodService"); //FILTER is a string to identify this intent
         intent.putExtra("time", "");
+        intent.putExtra("state",state);
         sendBroadcast(intent);
         super.onDestroy();
         Toast.makeText(this, "Period Service has ended", Toast.LENGTH_SHORT).show();
@@ -111,10 +114,12 @@ public class PeriodService extends Service {
                 long endTime = saveAndRestore.getPeriodEndTime();
                 long currentTime = System.currentTimeMillis();
                 if (endTime == -1) {
+                    state = 1;
                     stopSelf();
 
                 } else if (currentTime >= endTime) {
 
+                    state = 2;
                     timer.cancel();
                     timer.purge();
                     sendController.sendOff();
@@ -122,6 +127,7 @@ public class PeriodService extends Service {
                     stopSelf();
 
                 } else {
+                    state = 3;
                     Integer sec = Long.valueOf((endTime - currentTime) / (1000)).intValue();
                     Integer min = sec / 60;
                     Integer hour = min / 60;

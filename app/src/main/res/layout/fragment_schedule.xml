@@ -1,16 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/blue"
+    android:background="@color/backgroung_color"
 
-    tools:context=".Views.Homefragment">
+    tools:context=".Views.Homefragment"
+    android:orientation="vertical">
 
     <ScrollView
+        android:id="@+id/scroll_id"
+        android:layout_weight="20"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
 
         <LinearLayout
@@ -111,87 +114,117 @@
             </LinearLayout>
 
 
+
+
             <LinearLayout
-                android:id="@+id/days_id"
                 android:layout_width="match_parent"
+                android:layoutDirection="rtl"
                 android:layout_height="wrap_content"
-
-                android:layoutDirection="rtl">
-
-
-                <CheckBox
-                    android:id="@+id/sat"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
                     android:layout_weight="1"
-                    android:buttonTint="@color/white"
-                    android:layoutDirection="rtl"
-                    android:text="سبت"
-                    android:textColor="@color/white" />
-
-                <CheckBox
-                    android:id="@+id/sun"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:buttonTint="@color/white"
-                    android:layoutDirection="rtl"
-                    android:text="أحد"
-                    android:textColor="@color/white" />
+                    android:orientation="vertical"
+                    android:layoutDirection="rtl">
 
-                <CheckBox
-                    android:id="@+id/mon"
-                    android:layout_width="wrap_content"
+
+                    <CheckBox
+                        android:id="@+id/sat"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
+                        android:layoutDirection="rtl"
+                        android:text="السبت"
+                        android:maxLines="1"
+                        android:minWidth="@dimen/_1sdp"
+                        android:textColor="@color/white" />
+
+                    <CheckBox
+                        android:id="@+id/sun"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
+                        android:layoutDirection="rtl"
+                        android:text="الأحد"
+                        android:maxLines="1"
+                        android:minWidth="@dimen/_1sdp"
+                        android:textColor="@color/white" />
+
+                    <CheckBox
+                        android:id="@+id/mon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
+                        android:layoutDirection="rtl"
+                        android:text="الإثنين"
+                        android:maxLines="1"
+                        android:minWidth="@dimen/_1sdp"
+                        android:textColor="@color/white" />
+
+                    <CheckBox
+                        android:id="@+id/tue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
+                        android:layoutDirection="rtl"
+                        android:text="الثلاثاء"
+                        android:maxLines="1"
+                        android:minWidth="@dimen/_1sdp"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/days_id"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:buttonTint="@color/white"
-                    android:layoutDirection="rtl"
-                    android:text="إثنين"
+                    android:orientation="vertical"
+android:layout_weight="1"
+                    android:layoutDirection="rtl">
 
-                    android:textColor="@color/white" />
 
-                <CheckBox
-                    android:id="@+id/tue"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:buttonTint="@color/white"
-                    android:layoutDirection="rtl"
-                    android:text="ثلاثاء"
-                    android:textColor="@color/white" />
 
-                <CheckBox
-                    android:id="@+id/wed"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:buttonTint="@color/white"
-                    android:layoutDirection="rtl"
-                    android:text="أربع"
 
-                    android:textColor="@color/white" />
 
-                <CheckBox
-                    android:id="@+id/thr"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:buttonTint="@color/white"
-                    android:layoutDirection="rtl"
-                    android:text="خميس"
+                    <CheckBox
+                        android:id="@+id/wed"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
+                        android:layoutDirection="rtl"
+                        android:text="الأربع"
+                        android:maxLines="1"
+                        android:minWidth="@dimen/_1sdp"
+                        android:textColor="@color/white" />
 
-                    android:textColor="@color/white" />
+                    <CheckBox
+                        android:id="@+id/thr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
+                        android:layoutDirection="rtl"
+                        android:text="الخميس"
+                        android:maxLines="1"
+                        android:minWidth="@dimen/_1sdp"
+                        android:textColor="@color/white" />
 
-                <CheckBox
-                    android:id="@+id/fri"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:buttonTint="@color/white"
-                    android:layoutDirection="rtl"
-                    android:text="جمعة"
-
-                    android:textColor="@color/white" />
+                    <CheckBox
+                        android:id="@+id/fri"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:buttonTint="@color/white"
+                        android:layoutDirection="rtl"
+                        android:text="الجمعة"
+                        android:maxLines="1"
+                        android:minWidth="@dimen/_1sdp"
+                        android:textColor="@color/white" />
+                </LinearLayout>
             </LinearLayout>
 
 
@@ -286,27 +319,7 @@
 
             </androidx.constraintlayout.widget.ConstraintLayout>
 
-            <LinearLayout
-                android:id="@+id/switch_id"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_gravity="bottom"
-                android:orientation="horizontal">
 
-
-                <com.xgc1986.ripplebutton.widget.RippleButton
-                    android:id="@+id/save_id"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:text="حفظ"
-                    android:textSize="50sp"
-                    android:textStyle="bold"
-                    app:buttonColor="@android:color/holo_blue_dark"
-
-                    app:rippleColor="@android:color/holo_blue_bright" />
-            </LinearLayout>
 
             <TextView
                 android:layout_margin="@dimen/_5sdp"
@@ -321,5 +334,23 @@
         </LinearLayout>
 
     </ScrollView>
+    <LinearLayout
+        android:id="@+id/switch_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
 
-</FrameLayout>
+
+        <com.xgc1986.ripplebutton.widget.RippleButton
+            android:id="@+id/save_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="حفظ"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:buttonColor="@android:color/holo_blue_dark"
+
+            app:rippleColor="@android:color/holo_blue_bright" />
+    </LinearLayout>
+</LinearLayout>
