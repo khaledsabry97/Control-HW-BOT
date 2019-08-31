@@ -4,16 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroung_color"
+    android:background="@color/background_color"
 
-    tools:context=".Views.Homefragment"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".Views.Homefragment">
+
+
 
     <ScrollView
         android:id="@+id/scroll_id"
-        android:layout_weight="20"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_weight="20">
 
 
         <LinearLayout
@@ -31,37 +33,18 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="8dp"
                 android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_above="@id/days_id"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:background="@color/white"></ImageView>
+                <View style="@style/line_seperator"></View>
 
                 <TextView
                     style="@style/TextCategory"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/for_long"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_weight="0"
-                    android:text="يبدأ الساعة"
-                    android:textColor="@color/white" />
+                    android:text="يبدأ الساعة" />
 
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_above="@id/days_id"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
 
-                    android:background="@color/white"></ImageView>
+                <View style="@style/line_seperator"></View>
 
             </LinearLayout>
-
 
             <TimePicker
                 android:id="@+id/start_time_id"
@@ -71,7 +54,6 @@
                 android:numbersInnerTextColor="@color/white"
                 android:numbersTextColor="@color/white"
                 android:timePickerMode="spinner" />
-
             <LinearLayout
                 android:id="@+id/days"
 
@@ -82,148 +64,79 @@
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="8dp"
                 android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_above="@id/days_id"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:background="@color/white"></ImageView>
+                <View style="@style/line_seperator"></View>
 
                 <TextView
                     style="@style/TextCategory"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/for_long"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_weight="0"
-                    android:text="أيام التشغيل"
-                    android:textColor="@color/white" />
+                    android:text="أيام التشغيل" />
 
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_above="@id/days_id"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
 
-                    android:background="@color/white"></ImageView>
+                <View style="@style/line_seperator"></View>
 
             </LinearLayout>
 
-
-
-
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layoutDirection="rtl"
                 android:layout_height="wrap_content"
+                android:layoutDirection="rtl"
                 android:orientation="horizontal">
+
                 <LinearLayout
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:layoutDirection="rtl">
+                    android:layout_weight="1"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical">
 
 
                     <CheckBox
                         android:id="@+id/sat"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:buttonTint="@color/white"
-                        android:layoutDirection="rtl"
-                        android:text="السبت"
-                        android:maxLines="1"
-                        android:minWidth="@dimen/_1sdp"
-                        android:textColor="@color/white" />
+                        style="@style/check_box"
+                        android:text="السبت" />
 
                     <CheckBox
                         android:id="@+id/sun"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:buttonTint="@color/white"
-                        android:layoutDirection="rtl"
-                        android:text="الأحد"
-                        android:maxLines="1"
-                        android:minWidth="@dimen/_1sdp"
-                        android:textColor="@color/white" />
+                        style="@style/check_box"
+                        android:text="الأحد" />
 
                     <CheckBox
                         android:id="@+id/mon"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:buttonTint="@color/white"
-                        android:layoutDirection="rtl"
-                        android:text="الإثنين"
-                        android:maxLines="1"
-                        android:minWidth="@dimen/_1sdp"
-                        android:textColor="@color/white" />
+                        style="@style/check_box"
+                        android:text="الإثنين" />
 
                     <CheckBox
                         android:id="@+id/tue"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:buttonTint="@color/white"
-                        android:layoutDirection="rtl"
-                        android:text="الثلاثاء"
-                        android:maxLines="1"
-                        android:minWidth="@dimen/_1sdp"
-                        android:textColor="@color/white" />
+                        style="@style/check_box"
+                        android:text="الثلاثاء" />
                 </LinearLayout>
+
                 <LinearLayout
                     android:id="@+id/days_id"
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-android:layout_weight="1"
-                    android:layoutDirection="rtl">
-
-
-
+                    android:layout_weight="1"
+                    android:layoutDirection="rtl"
+                    android:orientation="vertical">
 
 
                     <CheckBox
                         android:id="@+id/wed"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:buttonTint="@color/white"
-                        android:layoutDirection="rtl"
-                        android:text="الأربع"
-                        android:maxLines="1"
-                        android:minWidth="@dimen/_1sdp"
-                        android:textColor="@color/white" />
+                        style="@style/check_box"
+                        android:text="الأربع" />
 
                     <CheckBox
                         android:id="@+id/thr"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:buttonTint="@color/white"
-                        android:layoutDirection="rtl"
-                        android:text="الخميس"
-                        android:maxLines="1"
-                        android:minWidth="@dimen/_1sdp"
-                        android:textColor="@color/white" />
+                        style="@style/check_box"
+
+                        android:text="الخميس" />
 
                     <CheckBox
                         android:id="@+id/fri"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:buttonTint="@color/white"
-                        android:layoutDirection="rtl"
-                        android:text="الجمعة"
-                        android:maxLines="1"
-                        android:minWidth="@dimen/_1sdp"
-                        android:textColor="@color/white" />
+                        style="@style/check_box"
+                        android:text="الجمعة" />
                 </LinearLayout>
             </LinearLayout>
 
@@ -238,37 +151,18 @@ android:layout_weight="1"
                 android:layout_marginTop="10dp"
                 android:layout_marginBottom="8dp"
                 android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_above="@id/days_id"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:background="@color/white"></ImageView>
+                <View style="@style/line_seperator"></View>
 
                 <TextView
                     style="@style/TextCategory"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignBottom="@+id/for_long"
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
-                    android:layout_weight="0"
-                    android:text=" يعمل لمدة"
-                    android:textColor="@color/white" />
+                    android:text=" يعمل لمدة" />
 
-                <ImageView
-                    android:layout_width="match_parent"
-                    android:layout_height="2dp"
-                    android:layout_above="@id/days_id"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
 
-                    android:background="@color/white"></ImageView>
+                <View style="@style/line_seperator"></View>
 
             </LinearLayout>
-
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/time"
 
@@ -283,7 +177,7 @@ android:layout_weight="1"
 
                     android:layout_marginLeft="32dp"
                     android:text="ساعة"
-                    android:textColor="@color/white"
+                    android:textColor="@color/gray"
                     android:textSize="@dimen/_10sdp"
                     app:layout_constraintBottom_toTopOf="@+id/end_time_id"
                     app:layout_constraintStart_toStartOf="@+id/end_time_id" />
@@ -295,7 +189,7 @@ android:layout_weight="1"
 
                     android:layout_marginRight="32dp"
                     android:text="دقيقة"
-                    android:textColor="@color/white"
+                    android:textColor="@color/gray"
                     android:textSize="@dimen/_10sdp"
                     app:layout_constraintBottom_toTopOf="@+id/end_time_id"
                     app:layout_constraintEnd_toEndOf="@+id/end_time_id" />
@@ -317,29 +211,31 @@ android:layout_weight="1"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/ho" />
 
+
             </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-
+            <View style="@style/line_seperator"
+                android:layout_margin="5dp"
+                ></View>
             <TextView
-                android:layout_margin="@dimen/_5sdp"
                 android:id="@+id/info"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="start"
-                android:textColor="@color/white"
-                android:textSize="@dimen/_10sdp"
+                style="@style/text_normal"
                 tools:text="سيعمل الجهاز يوم السبت و الأحد والإثنين والثلاثاء الساعة الخامسة صباحًا ولمدة 2 ساعة و 15 دقيقة" />
+
+
+
+
+
+
 
         </LinearLayout>
 
     </ScrollView>
+
     <LinearLayout
         android:id="@+id/switch_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
-        >
+        android:layout_weight="1">
 
 
         <com.xgc1986.ripplebutton.widget.RippleButton

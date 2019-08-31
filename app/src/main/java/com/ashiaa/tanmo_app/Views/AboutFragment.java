@@ -41,7 +41,7 @@ public class AboutFragment extends Fragment {
                 .addShareAction(R.string.app_name)
                 .setWrapScrollView(true)
                 .setLinksAnimated(true)
-                .setShowAsCard(true).setBackgroundColor(R.color.gray)
+                .setShowAsCard(true).setBackgroundColor(R.color.about_color)
                 .build();
 
         return view;

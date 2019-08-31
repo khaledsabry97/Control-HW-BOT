@@ -19,14 +19,14 @@
 
 
     <color name="header_color">#ABF05D</color>
-    <color name="backgroung_color">#CCFF90</color>
+    <color name="background_color">#CCFF90</color>
     <color name="navigation_color">#FF8A80</color>
     <color name="on_button_color">#1BFF00</color>
     <color name="off_button_color">#FF1500</color>
     <color name="on_period_button_color">#74B325</color>
     <color name="off_period_button_color">#992A2A</color>
     <color name="save_button_color">#85CBFF</color>
-
+    <color name="about_color">#76D512</color>
 
     <color name="text_on_button">@color/gray_dark</color>
     <color name="text_off_button">@color/gray_dark</color>

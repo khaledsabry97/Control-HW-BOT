@@ -14,11 +14,12 @@ import android.widget.Toast;
 
 import com.ashiaa.tanmo_app.Model.SaveAndRestore;
 import com.ashiaa.tanmo_app.R;
+import com.xgc1986.ripplebutton.widget.RippleButton;
 
 
 public class ConfigurationFragment extends Fragment {
     EditText ip,deviceId,password;
-    Button save;
+    RippleButton save;
     SaveAndRestore saveAndRestore;
 
     public static ConfigurationFragment newInstance() {

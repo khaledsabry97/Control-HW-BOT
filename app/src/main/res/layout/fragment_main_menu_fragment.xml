@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/blue"
+    android:background="@color/background_color"
     tools:context=".Views.Homefragment"
 
     >
@@ -16,11 +16,7 @@
         android:layout_gravity="center"
         android:orientation="vertical">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/whole_frame"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1">
+
 
 
             <LinearLayout
@@ -53,35 +49,23 @@
                     android:textStyle="bold"
                     app:buttonColor="@android:color/holo_red_dark"
                     app:rippleColor="@android:color/darker_gray" />
+                <CheckBox
+                    android:id="@+id/checkBox"
+                    style="@style/check_box"
 
+                    android:layout_below="@+id/switch_id"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+android:layout_gravity="right"
+                    android:text="تشغيل لمدة زمنية " />
             </LinearLayout>
-
-            <CheckBox
-                android:id="@+id/checkBox"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/switch_id"
-                android:layout_marginEnd="8dp"
-                android:layout_marginRight="8dp"
-                android:color="#ffff"
-                android:buttonTint="@color/white"
-                android:layoutDirection="rtl"
-                android:text="تشغيل لمدة زمنية "
-                android:textColor="#ffff"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/switch_id" />
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
 
         <RelativeLayout
             android:id="@+id/period_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:visibility="visible"
-            app:layout_constraintTop_toBottomOf="@id/switch_id">
+            android:visibility="visible">
 
 
             <androidx.constraintlayout.widget.ConstraintLayout
@@ -98,7 +82,7 @@
 
                     android:layout_marginLeft="32dp"
                     android:text="ساعة"
-                    android:textColor="@color/white"
+                    android:textColor="@color/gray"
                     android:textSize="@dimen/_10sdp"
                     app:layout_constraintBottom_toTopOf="@+id/timepicker"
                     app:layout_constraintStart_toStartOf="@+id/timepicker" />
@@ -110,7 +94,7 @@
 
                     android:layout_marginRight="32dp"
                     android:text="دقيقة"
-                    android:textColor="@color/white"
+                    android:textColor="@color/gray"
                     android:textSize="@dimen/_10sdp"
                     app:layout_constraintBottom_toTopOf="@+id/timepicker"
                     app:layout_constraintEnd_toEndOf="@+id/timepicker" />

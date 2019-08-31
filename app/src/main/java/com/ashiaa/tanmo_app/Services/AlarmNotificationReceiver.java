@@ -36,9 +36,9 @@ public class AlarmNotificationReceiver extends BroadcastReceiver {
 
         Calendar calendar = Calendar.getInstance();
 
-        String[] days = new String[] { context.getString(R.string.sat),context.getString(R.string.sun), context.getString(R.string.mon), context.getString(R.string.tue), context.getString(R.string.wed), context.getString(R.string.thr), context.getString(R.string.fri),  };
-
-        String day = days[calendar.get(Calendar.DAY_OF_WEEK)];
+        String[] days = new String[] { context.getString(R.string.sun), context.getString(R.string.mon), context.getString(R.string.tue), context.getString(R.string.wed), context.getString(R.string.thr), context.getString(R.string.fri),context.getString(R.string.sat)  };
+        int no = calendar.get(Calendar.DAY_OF_WEEK);
+        String day = days[no-1];
         if(saveAndRestore.getDayState(day) == false || saveAndRestore.getPeriodEndTime() != -1)
             return;
 
