@@ -28,37 +28,37 @@ Control home device through mobile app using WiFi connection.
 - [x] add status indicator to single activity could be the button itself
 - [x] add toast error messages to single activity could be ignored its 
       good to know your http request succeeded or not
-- [ ] put on and off buttons block in a single fragment
-- [ ] make new fragment for timer block
-- [ ] add timer picker
-- [ ] add count down timer code
-- [ ] make button start a timer and send on 
-- [ ] after timer finished button reset and send off
+- [x] put on and off buttons block in a single fragment
+- [x] make new fragment for timer block
+- [x] add timer picker
+- [x] add count down timer code
+- [x] make button start a timer and send on 
+- [x] after timer finished button reset and send off
 # configuration tab:
-- [ ] create new fragment for login block
-- [ ] create json stucture to be sent in every request
-- [ ] add device Id to every reqeust to be as token for device and app
-- [ ] create Device ID (token) text field
-- [ ] create save button
-- [ ] relate login info to save button
+- [x] create new fragment for login block
+- [x] create json stucture to be sent in every request
+- [x] add device Id to every reqeust to be as token for device and app
+- [x] create Device password text field
+- [x] create save button
+- [x] relate login info to save button
  communication 
 # schedule tab:
-- [ ] create new fragment for each block if code is big and if not make all
+- [x] create new fragment for each block if code is big and if not make all
       of them in one activity
-- [ ] create save button to send request on specified conditions
-- [ ] add clock picker
-- [ ] relate clock picker output to save button code
-- [ ] add days selection boxes
-- [ ] relate days output to save button code
-- [ ] add timer picker
-- [ ] add count down timer code
-- [ ] relate timer to save button code
-- [ ] rearrange schedule tab code in most usable way
+- [x] create save button to send request on specified conditions
+- [x] add clock picker
+- [x] relate clock picker output to save button code
+- [x] add days selection boxes
+- [x] relate days output to save button code
+- [x] add timer picker
+- [x] add count down timer code
+- [x] relate timer to save button code
+- [x] rearrange schedule tab code in most usable way
 
 # about tab:
-- [ ] text field include company name
-- [ ] text field include website
-- [ ] text field include contact email
+- [x] text field include company name
+- [x] text field include website
+- [x] text field include contact email
 
 ## contribution guide:
 - refer to "docs" folder for documentation.
