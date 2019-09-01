@@ -12,6 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
+import com.ashiaa.tanmo_app.Controllers.SendController;
 import com.ashiaa.tanmo_app.Views.AboutFragment;
 import com.ashiaa.tanmo_app.Views.ConfigurationFragment;
 import com.ashiaa.tanmo_app.Views.Homefragment;
@@ -98,6 +99,8 @@ public class MainActivity extends AppCompatActivity {
 
 
         bottomNavigationView.setSelectedItemId(R.id.menu_main);
+        SendController sendController= new SendController(getApplicationContext());
+        sendController.sendCheckStatus();
 
     }
 

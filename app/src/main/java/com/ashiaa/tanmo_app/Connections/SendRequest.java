@@ -50,20 +50,13 @@ final Constants constants = new Constants(context);
                     @Override
                     public void onResponse(JSONObject response) {
                         try {
-                            if (jsonObject.getString(SendController.switchs) == "on")
-                            {
-                                Constants.onButtonState = false;
-                                Intent intent = new Intent(context.getString(R.string.ButtonStateBrodReceiver));
-                                intent.putExtra("onButtonState",Constants.onButtonState);
-                            context.sendBroadcast(intent);}
-                            else
-                            {
-                                Constants.onButtonState = true;
-                                Intent intent = new Intent(context.getString(R.string.ButtonStateBrodReceiver));
-                                intent.putExtra("onButtonState",Constants.onButtonState);
-                                context.sendBroadcast(intent);
+                            if (response.isNull("status") == false) {
+                                if (response.getString("status") == "on") {
+                                 onButton(false);
+                                } else {
+                                   onButton(true);
+                                }
                             }
-
                             Toast.makeText(context, response.getString("msg"),
                                     Toast.LENGTH_LONG).show();
                         } catch (JSONException e) {
@@ -97,6 +90,15 @@ final Constants constants = new Constants(context);
         // Add the request to the RequestQueue.
         queue.add(jsonObjReq);
 
+    }
+
+
+    private void onButton(boolean state)
+    {
+        Constants.onButtonState = state;
+        Intent intent = new Intent(context.getString(R.string.ButtonStateBrodReceiver));
+        intent.putExtra("onButtonState", Constants.onButtonState);
+        context.sendBroadcast(intent);
     }
 
     @Deprecated

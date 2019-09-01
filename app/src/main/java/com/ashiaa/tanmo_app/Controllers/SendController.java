@@ -13,11 +13,15 @@ import org.json.JSONObject;
  * views contact with the sendController whenever they want to send a message or request
  */
 public class SendController extends Controller {
+    final static String type = "type";
     final static String userName = "user_name";
     final static String password = "password";
     final static String deviceId = "device_id";
     public final static String switchs = "switch";
+    final static String checkStatus = "check_status";
     final static String period = "period";
+    final static String sendOn = "sendOn";
+    final static String sendOff = "sendOff";
     Context activity;
 
     public SendController(Context activity) {
@@ -36,7 +40,7 @@ public class SendController extends Controller {
         SaveAndRestore saveAndRestore = new SaveAndRestore(activity);
         JSONObject jsonObject = new JSONObject();
         try {
-            //jsonObject.accumulate(userName,saveAndRestore.getUserName());
+            jsonObject.accumulate(type,sendOn);
             jsonObject.accumulate(password, saveAndRestore.getPassWord());
             jsonObject.accumulate(deviceId, saveAndRestore.getDeviceId());
             jsonObject.accumulate(switchs, "on");
@@ -53,10 +57,21 @@ public class SendController extends Controller {
         SaveAndRestore saveAndRestore = new SaveAndRestore(activity);
         JSONObject jsonObject = new JSONObject();
         try {
-            //jsonObject.accumulate(userName,saveAndRestore.getUserName());
+            jsonObject.accumulate(type,sendOff);
             jsonObject.accumulate(password, saveAndRestore.getPassWord());
             jsonObject.accumulate(deviceId, saveAndRestore.getDeviceId());
             jsonObject.accumulate(switchs, "off");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        send(jsonObject);
+    }
+
+    public void sendCheckStatus() {
+        SaveAndRestore saveAndRestore = new SaveAndRestore(activity);
+        JSONObject jsonObject = new JSONObject();
+        try {
+            jsonObject.accumulate(type,checkStatus);
         } catch (JSONException e) {
             e.printStackTrace();
         }
