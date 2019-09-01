@@ -11,3 +11,10 @@
 /build
 /captures
 .externalNativeBuild
+*.lock
+*.bin
+*.properties
+local.properties
+.idea/vcs.xml
+*.bin
+/.idea
