@@ -18,6 +18,7 @@ import android.widget.TimePicker;
 import androidx.fragment.app.Fragment;
 
 import com.ashiaa.tanmo_app.Controllers.SendController;
+import com.ashiaa.tanmo_app.Model.Constants;
 import com.ashiaa.tanmo_app.Model.SaveAndRestore;
 import com.ashiaa.tanmo_app.R;
 import com.ashiaa.tanmo_app.Services.PeriodService;
@@ -33,47 +34,20 @@ public class Homefragment extends Fragment {
     TextView remainingTime;
     Intent periodIntent;
     String time = "";
-
-    public Homefragment() {
-        // Required empty public constructor
-    }
-
-
-    public static Homefragment newInstance() {
-        Homefragment fragment = new Homefragment();
-        return fragment;
-    }
-
-    private BroadcastReceiver receiver = new BroadcastReceiver() {
-
-        @Override
-        public void onReceive(Context context, Intent intent) {
-            time = intent.getExtras().getString("time");
-            int state = intent.getExtras().getInt("state");
-            updateTime(time);
-            if(time.isEmpty() && state == 2)
-            {
-                enableStopButton(false);
-            }
-            else if(time.isEmpty() == false)
-            {
-                enableStopButton(true);
-            }
-        }
-    };
-
+    BroadcastReceiver buttonStates,periodStateBR;
     @Override
     public void onResume() {
         super.onResume();
-        getActivity().registerReceiver(receiver, new IntentFilter("PeriodService"));
+        getActivity().registerReceiver(periodStateBR, new IntentFilter("PeriodService"));
+        getActivity().registerReceiver(buttonStates, new IntentFilter(getActivity().getString(R.string.ButtonStateBrodReceiver)));
         checkLastState();
     }
 
     @Override
     public void onPause() {
         super.onPause();
-        getActivity().unregisterReceiver(receiver);
-
+        getActivity().unregisterReceiver(periodStateBR);
+        getActivity().unregisterReceiver(buttonStates);
     }
 
     @Override
@@ -97,14 +71,20 @@ public class Homefragment extends Fragment {
         saveAndRestore = new SaveAndRestore(getContext());
 
         sendController = new SendController(this.getContext());
-        timePicker.setIs24HourView(true);
 
+        setupView();
+
+
+        return view;
+    }
+
+    private void setupView() {
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 //send start enigne
                 sendController.sendOn();
-                enableStopButton(true);
+                //enableStopButton(true);
 
             }
         });
@@ -115,7 +95,7 @@ public class Homefragment extends Fragment {
                 //send stop
                 sendController.sendOff();
                 stopPeriod();
-                enableStopButton(false);
+                //enableStopButton(false);
 
 
             }
@@ -153,7 +133,7 @@ public class Homefragment extends Fragment {
                 getActivity().startService(periodIntent);
 
                 enableStopPeriodButton(true);
-                enableStopButton(true);
+                //enableStopButton(true);
 
             }
         });
@@ -162,18 +142,45 @@ public class Homefragment extends Fragment {
             public void onClick(View view) {
                 sendController.sendOff();
                 stopPeriod();
-                enableStopButton(false);
+                //enableStopButton(false);
                 enableStopPeriodButton(false);
 
 
             }
         });
 
-        enableStopButton(false);
+        periodStateBR = new BroadcastReceiver() {
+
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                time = intent.getExtras().getString("time");
+                int state = intent.getExtras().getInt("state");
+                updateTime(time);
+                if(time.isEmpty() && state == 2)
+                {
+                    //enableStopButton(false);
+                }
+                else if(time.isEmpty() == false)
+                {
+                    //enableStopButton(true);
+                }
+            }
+        };
+
+        buttonStates = new BroadcastReceiver() {
+            @Override
+            public void onReceive(Context context, Intent intent) {
+                boolean onButtonState = intent.getExtras().getBoolean("onButtonState");
+                enableStopButton(!Constants.onButtonState);
+
+            }
+        };
+        //enableStopButton(false);
         enableStopPeriodButton(false);
+        timePicker.setIs24HourView(true);
 
 
-        return view;
+
     }
 
     private void stopPeriod() {
@@ -193,6 +200,7 @@ public class Homefragment extends Fragment {
         if (currentTime <= endTime && endTime != -1) {
             periodCheckBox.setChecked(true);
         }
+        enableStopButton(!Constants.onButtonState);
     }
 
     private void updateTime(String time) {

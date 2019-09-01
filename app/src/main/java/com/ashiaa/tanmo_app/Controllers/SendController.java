@@ -16,7 +16,7 @@ public class SendController extends Controller {
     final static String userName = "user_name";
     final static String password = "password";
     final static String deviceId = "device_id";
-    final static String switchs = "switch";
+    public final static String switchs = "switch";
     final static String period = "period";
     Context activity;
 

@@ -1,6 +1,7 @@
 package com.ashiaa.tanmo_app.Connections;
 
 import android.content.Context;
+import android.content.Intent;
 import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
@@ -14,7 +15,10 @@ import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.ashiaa.tanmo_app.Controllers.SendController;
 import com.ashiaa.tanmo_app.Model.Constants;
+import com.ashiaa.tanmo_app.R;
+import com.ashiaa.tanmo_app.Views.Homefragment;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -34,10 +38,10 @@ public class SendRequest {
     }
 
 
-    public void send(JSONObject jsonObject) {
+    public void send(final JSONObject jsonObject) {
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(context);
-Constants constants = new Constants(context);
+final Constants constants = new Constants(context);
 
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(Request.Method.POST,
                 constants.getUrl(), jsonObject,
@@ -45,22 +49,37 @@ Constants constants = new Constants(context);
 
                     @Override
                     public void onResponse(JSONObject response) {
-                        Log.d("[Received Successfully]", response.toString());
-                        //Toast message
                         try {
+                            if (jsonObject.getString(SendController.switchs) == "on")
+                            {
+                                Constants.onButtonState = false;
+                                Intent intent = new Intent(context.getString(R.string.ButtonStateBrodReceiver));
+                                intent.putExtra("onButtonState",Constants.onButtonState);
+                            context.sendBroadcast(intent);}
+                            else
+                            {
+                                Constants.onButtonState = true;
+                                Intent intent = new Intent(context.getString(R.string.ButtonStateBrodReceiver));
+                                intent.putExtra("onButtonState",Constants.onButtonState);
+                                context.sendBroadcast(intent);
+                            }
+
                             Toast.makeText(context, response.getString("msg"),
                                     Toast.LENGTH_LONG).show();
                         } catch (JSONException e) {
                             e.printStackTrace();
                         }
+                        Log.d("[Received Successfully]", response.toString());
+                        //Toast message
                         // Display the response in debugger
-                        Log.d("tagv_response", "Response is: " + response);
 
                     }
                 }, new Response.ErrorListener() {
 
             @Override
             public void onErrorResponse(VolleyError error) {
+
+
                 VolleyLog.d("[Not Received]", "Error: " + error.getMessage());
                 //Toast message
                 Toast.makeText(context, "خطأ في الإتصال بالجهاز",

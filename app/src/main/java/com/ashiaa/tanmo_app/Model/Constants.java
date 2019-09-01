@@ -7,6 +7,7 @@ import android.content.Context;
  */
 public class Constants {
     public static final String URL = ""; // the url to the device
+    public static boolean onButtonState = true;
     SaveAndRestore saveAndRestore;
 
     public Constants(Context context)
