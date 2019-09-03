@@ -84,7 +84,6 @@ public class MainActivity extends AppCompatActivity {
                             aboutFragment = new AboutFragment();
                         fragment = aboutFragment;
                         header.setText("من نحن");
-
                         break;
 
 
@@ -107,4 +106,17 @@ public class MainActivity extends AppCompatActivity {
     //onCreate end
 
 
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        if (bottomNavigationView.getSelectedItemId() == R.id.menu_main){
+            finish();
+            System.exit(0);
+        }
+        else
+        {
+            bottomNavigationView.setSelectedItemId(R.id.menu_main);
+        }
+
+    }
 }       //MainActivity end

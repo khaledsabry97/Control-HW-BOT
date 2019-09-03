@@ -4,15 +4,15 @@
     <shared>
       <config>
         <device id="pixel_3a_xl" />
+        <device id="3.3in WQVGA" />
+        <device id="Nexus 6" />
+        <device id="3.2in QVGA (ADP2)" />
         <device id="3.7in WVGA (Nexus One)" />
         <device id="pixel_2_xl" />
-        <device id="Nexus 6" />
-        <device id="3.3in WQVGA" />
         <device id="4in WVGA (Nexus S)" />
         <device id="pixel_3a" />
         <device id="pixel_3_xl" />
         <device id="2.7in QVGA" />
-        <device id="pixel" />
         <target>android-21</target>
       </config>
     </shared>
@@ -81,7 +81,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e1513f1-a867-4501-9d11-6cb5fe50768a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_youtube_searched_for_black_24dp.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -93,7 +92,7 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/navigation_items.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/navigation_items.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_menu_fragment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_menu_fragment.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +103,7 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="BaytrailA010AD37" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_API_27" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -122,30 +121,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+            <state relative-caret-position="305">
+              <caret line="48" column="61" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="61" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3176#3227#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation_items.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="133">
-              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
             </state>
           </provider>
-          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/Controller.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_schedule.xml">
+          <provider editor-type-id="android-designer2" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+            <state relative-caret-position="240">
+              <caret line="220" column="16" selection-start-line="220" selection-end-line="221" />
             </state>
           </provider>
         </entry>
@@ -153,7 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ScheduleFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2983">
+            <state relative-caret-position="616">
               <caret line="181" selection-start-line="181" selection-end-line="181" />
             </state>
           </provider>
@@ -162,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1216">
-              <caret line="73" column="52" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
+            <state relative-caret-position="210">
+              <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -172,47 +173,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/view/View.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5092">
-              <caret line="338" column="19" selection-start-line="338" selection-start-column="19" selection-end-line="338" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_schedule.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4674">
-              <caret line="246" column="20" selection-start-line="246" selection-end-line="247" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/buttonFunctions.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1615">
-              <caret line="101" column="81" selection-start-line="101" selection-start-column="81" selection-end-line="101" selection-end-column="81" />
+            <state relative-caret-position="437">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="669">
+              <caret line="131" column="34" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
+              <folding>
+                <element signature="e#1371#1428#0" expanded="true" />
+                <element signature="e#2808#3047#0" expanded="true" />
+                <element signature="e#3046#3047#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/content/ContextWrapper.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="341" column="18" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main_menu_fragment.xml">
+          <provider editor-type-id="android-designer2" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-401">
+              <caret line="128" column="43" lean-forward="true" selection-start-line="128" selection-start-column="43" selection-end-line="128" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/androidx/fragment/app/FragmentActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="179" column="16" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -263,7 +269,6 @@
         <option value="$PROJECT_DIR$/app/src/main/res/font/arial.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-v24/round.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_menu_fragment.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_layout.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/AboutFragment.java" />
@@ -274,10 +279,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/Constants.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_configuration.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/navigation_items.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_menu_fragment.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java" />
       </list>
     </option>
   </component>
@@ -295,7 +301,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -380,8 +385,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -501,8 +507,8 @@
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.52012384" side_tool="true" weight="0.12953092" />
       <window_info id="Capture Tool" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.47653958" visible="true" weight="0.12953092" />
-      <window_info id="Structure" order="3" sideWeight="0.5234604" side_tool="true" visible="true" weight="0.12953092" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4750733" visible="true" weight="0.12953092" />
+      <window_info id="Structure" order="3" sideWeight="0.52492666" side_tool="true" visible="true" weight="0.12953092" />
       <window_info id="Build Variants" order="4" sideWeight="0.52012384" side_tool="true" weight="0.12953092" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
@@ -514,9 +520,9 @@
       <window_info anchor="bottom" id="Android Profiler" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49626866" weight="0.32917964" />
       <window_info anchor="bottom" id="Run" order="4" sideWeight="0.6673774" weight="0.32917964" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.4035181" side_tool="true" visible="true" weight="0.29179648" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.40405118" side_tool="true" visible="true" weight="0.29179648" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.59648186" visible="true" weight="0.29179648" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.5959488" visible="true" weight="0.29179648" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Sequence" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -524,7 +530,7 @@
       <window_info anchor="right" id="Gradle" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="right" id="Palette&#9;" order="4" />
-      <window_info active="true" anchor="right" id="Preview" order="5" visible="true" weight="0.32995737" />
+      <window_info anchor="right" id="Preview" order="5" weight="0.32995737" />
       <window_info anchor="right" id="Android WiFi ADB" order="6" />
       <window_info anchor="right" id="AdbCommander" order="7" side_tool="true" />
       <window_info anchor="right" id="Assistant" order="8" weight="0.21108742" />
@@ -565,7 +571,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java</url>
-          <line>60</line>
+          <line>59</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
@@ -657,22 +663,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/widget/TextView.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#35341#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/content/ContextWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4579">
-          <caret line="361" column="25" selection-start-line="361" selection-start-column="25" selection-end-line="361" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/app/Service.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1007">
@@ -818,29 +808,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main_menu_fragment.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="96" column="50" selection-start-line="96" selection-start-column="50" selection-end-line="96" selection-end-column="50" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/header_fragement.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
         </state>
       </provider>
-      <provider selected="true" editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_layout.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
           <caret line="12" column="55" lean-forward="true" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -921,24 +903,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_configuration.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2565">
           <caret line="135" selection-start-line="135" selection-end-line="135" />
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ConfigurationFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
@@ -956,20 +931,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ScheduleFragment.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2983">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1216">
-          <caret line="73" column="52" selection-start-line="73" selection-start-column="52" selection-end-line="73" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="57">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
         </state>
       </provider>
     </entry>
@@ -979,14 +944,6 @@
           <caret line="338" column="19" selection-start-line="338" selection-start-column="19" selection-end-line="338" selection-end-column="19" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_schedule.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4674">
-          <caret line="246" column="20" selection-start-line="246" selection-end-line="247" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1002,37 +959,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation_items.xml">
+      <provider editor-type-id="android-designer2" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1615">
-          <caret line="101" column="81" selection-start-line="101" selection-start-column="81" selection-end-line="101" selection-end-column="81" />
+        <state relative-caret-position="133">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/Controller.java">
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/androidx/fragment/app/FragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+        <state relative-caret-position="210">
+          <caret line="179" column="16" selection-start-line="179" selection-start-column="16" selection-end-line="179" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_schedule.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="220" column="16" selection-start-line="220" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main_menu_fragment.xml">
+      <provider editor-type-id="android-designer2" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-401">
+          <caret line="128" column="43" lean-forward="true" selection-start-line="128" selection-start-column="43" selection-end-line="128" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
+        <state relative-caret-position="305">
+          <caret line="48" column="61" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3176#3227#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ScheduleFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="181" selection-start-line="181" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/content/ContextWrapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="341" column="18" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="37" column="16" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/navigation_items.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        <state relative-caret-position="669">
+          <caret line="131" column="34" selection-start-line="131" selection-start-column="34" selection-end-line="131" selection-end-column="34" />
+          <folding>
+            <element signature="e#1371#1428#0" expanded="true" />
+            <element signature="e#2808#3047#0" expanded="true" />
+            <element signature="e#3046#3047#0" expanded="true" />
+          </folding>
         </state>
       </provider>
-      <provider editor-type-id="android-designer2" />
     </entry>
   </component>
 </project>

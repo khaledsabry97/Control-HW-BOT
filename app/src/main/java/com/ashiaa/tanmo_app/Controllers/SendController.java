@@ -1,6 +1,5 @@
 package com.ashiaa.tanmo_app.Controllers;
 
-import android.app.Activity;
 import android.content.Context;
 
 import com.ashiaa.tanmo_app.Connections.SendRequest;
@@ -18,7 +17,7 @@ public class SendController extends Controller {
     final static String password = "password";
     final static String deviceId = "device_id";
     public final static String switchs = "switch";
-    final static String checkStatus = "check_status";
+    final static String checkState = "check_state";
     final static String period = "period";
     final static String sendOn = "sendOn";
     final static String sendOff = "sendOff";
@@ -71,7 +70,7 @@ public class SendController extends Controller {
         SaveAndRestore saveAndRestore = new SaveAndRestore(activity);
         JSONObject jsonObject = new JSONObject();
         try {
-            jsonObject.accumulate(type,checkStatus);
+            jsonObject.accumulate(type, checkState);
         } catch (JSONException e) {
             e.printStackTrace();
         }

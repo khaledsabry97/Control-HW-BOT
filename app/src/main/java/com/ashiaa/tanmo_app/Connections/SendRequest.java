@@ -37,6 +37,32 @@ public class SendRequest {
         this.context = context;
     }
 
+    /**
+     * here you can control what the response do when it gets back
+     * @param response the json response from the iot device
+     */
+    private void selectState(JSONObject response)
+    {
+        try {
+            //type to tell what are the request is sent from the device
+            String type = response.getString("type");
+            if(type == "switch_state" || type == "check_state")
+            {
+                if (response.getBoolean("is_open") == true) {
+                    onButton(false);
+                } else {
+                    onButton(true);
+                }
+            }
+
+
+
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+    }
+
+
 
     public void send(final JSONObject jsonObject) {
         // Instantiate the RequestQueue.
@@ -49,19 +75,7 @@ final Constants constants = new Constants(context);
 
                     @Override
                     public void onResponse(JSONObject response) {
-                        try {
-                            if (response.isNull("status") == false) {
-                                if (response.getString("status") == "on") {
-                                 onButton(false);
-                                } else {
-                                   onButton(true);
-                                }
-                            }
-                            Toast.makeText(context, response.getString("msg"),
-                                    Toast.LENGTH_LONG).show();
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
+                       selectState(response);
                         Log.d("[Received Successfully]", response.toString());
                         //Toast message
                         // Display the response in debugger
@@ -100,6 +114,12 @@ final Constants constants = new Constants(context);
         intent.putExtra("onButtonState", Constants.onButtonState);
         context.sendBroadcast(intent);
     }
+
+
+
+
+
+
 
     @Deprecated
     public void onButtonFunction() {
