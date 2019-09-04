@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/header_color"
 
-<TextView
+    >
+
+<androidx.appcompat.widget.AppCompatTextView
     android:id="@+id/header_text_id"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="القائمة الرئيسية"
+    android:padding="3dp"
     style="@style/TextHeader"
-/>
+    android:background="@drawable/shadow"
+    />
 </LinearLayout>

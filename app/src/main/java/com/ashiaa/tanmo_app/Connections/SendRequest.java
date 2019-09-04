@@ -6,7 +6,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
-import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -15,16 +14,11 @@ import com.android.volley.VolleyLog;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.ashiaa.tanmo_app.Controllers.SendController;
 import com.ashiaa.tanmo_app.Model.Constants;
 import com.ashiaa.tanmo_app.R;
-import com.ashiaa.tanmo_app.Views.Homefragment;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * this is the interface of the app with the iot device you can send and receive from the response from it
@@ -32,6 +26,7 @@ import java.util.Map;
 public class SendRequest {
 
     private final Context context;
+    Intent loadingIntent;
 
     public SendRequest(Context context) {
         this.context = context;
@@ -39,19 +34,17 @@ public class SendRequest {
 
     /**
      * here you can control what the response do when it gets back
+     *
      * @param response the json response from the iot device
      */
-    private void selectState(JSONObject response)
-    {
+    private void selectState(JSONObject sending, JSONObject response) {
         try {
             //type to tell what are the request is sent from the device
-            String type = response.getString("type");
-            if(type.equals("switch_state")  || type.equals("check_state"))
-            {
+            String type = sending.getString("type");
+            if (type.equals("send_on") || type.equals("send_off") || type.equals("check_state")) {
                 Log.d("type", type);
                 if (response.getBoolean("is_open") == true) {
                     Log.d("On Button", "disabled");
-
                     onButton(false);
                 } else {
                     Log.d("On Button", "enabled");
@@ -60,30 +53,28 @@ public class SendRequest {
             }
 
 
-
         } catch (JSONException e) {
             e.printStackTrace();
         }
     }
 
 
-
-    public void send(final JSONObject jsonObject) {
+    public void send(final JSONObject jsonObject, String url) {
         // Instantiate the RequestQueue.
         RequestQueue queue = Volley.newRequestQueue(context);
-final Constants constants = new Constants(context);
 
+sendLoadingVisible(true);
         JsonObjectRequest jsonObjReq = new JsonObjectRequest(Request.Method.POST,
-                constants.getUrl(), jsonObject,
+                url,
                 new Response.Listener<JSONObject>() {
 
                     @Override
                     public void onResponse(JSONObject response) {
-                       selectState(response);
+                        selectState(jsonObject, response);
                         Log.d("[Received Successfully]", response.toString());
                         //Toast message
                         // Display the response in debugger
-
+sendLoadingVisible(false);
                     }
                 }, new Response.ErrorListener() {
 
@@ -96,10 +87,9 @@ final Constants constants = new Constants(context);
                         Toast.LENGTH_LONG).show();
                 //debugger message
                 Log.d("tagv_onErrorResponse", "That didn't work!");
+                sendLoadingVisible(false);
             }
         }) {
-
-
 
 
         };
@@ -110,18 +100,19 @@ final Constants constants = new Constants(context);
     }
 
 
-    private void onButton(boolean state)
-    {
+    private void onButton(boolean state) {
         Constants.onButtonState = state;
         Intent intent = new Intent(context.getString(R.string.ButtonStateBrodReceiver));
         intent.putExtra("onButtonState", Constants.onButtonState);
         context.sendBroadcast(intent);
     }
 
-
-
-
-
+    private void sendLoadingVisible(boolean visible)
+    {
+        loadingIntent = new Intent("loading_bar_receiver");
+        loadingIntent.putExtra("loading_bar",visible);
+        context.sendBroadcast(loadingIntent);
+    }
 
 
     @Deprecated

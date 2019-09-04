@@ -5,22 +5,39 @@
     android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/background_color"
     android:orientation="vertical">
     <include
         android:id="@+id/header_id"
         layout="@layout/header_fragement"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"></include>
-    <FrameLayout
 
-        android:id="@+id/main_frame_layout"
+    <FrameLayout
+android:layoutDirection="ltr"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="5"
-        android:background="@color/background_color"
+        android:layout_weight="1"
+android:background="@drawable/round_box"
+        android:padding="@dimen/_4sdp"
+        android:layout_margin="@dimen/_2sdp"
 
         >
-
+        <FrameLayout
+            android:id="@+id/main_frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ></FrameLayout>
+        <com.github.ybq.android.spinkit.SpinKitView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/spin_kit"
+            style="@style/SpinKitView.Large.Circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            app:SpinKit_Color="@color/colorAccent"
+            android:visibility="gone"
+            />
 
 
     </FrameLayout>
@@ -31,6 +48,7 @@
         android:layout_height="wrap_content"
         android:background="@color/navigation_color"
         android:layout_gravity="bottom"
+        android:layoutDirection="ltr"
         app:menu="@menu/navigation_items" />
 
 </LinearLayout>

@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color"
 
     android:orientation="vertical"
     tools:context=".Views.Homefragment">
@@ -35,10 +34,10 @@
                 android:orientation="horizontal">
                 <View style="@style/line_seperator"></View>
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     style="@style/TextCategory"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
+                    android:background="@drawable/round_all_corners"
+                    android:padding="@dimen/_4sdp"
                     android:text="يبدأ الساعة" />
 
 
@@ -66,10 +65,10 @@
                 android:orientation="horizontal">
                 <View style="@style/line_seperator"></View>
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     style="@style/TextCategory"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
+                    android:background="@drawable/round_all_corners"
+                    android:padding="@dimen/_4sdp"
                     android:text="أيام التشغيل" />
 
 
@@ -153,10 +152,10 @@
                 android:orientation="horizontal">
                 <View style="@style/line_seperator"></View>
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     style="@style/TextCategory"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
+                    android:background="@drawable/round_all_corners"
+                    android:padding="@dimen/_4sdp"
                     android:text=" يعمل لمدة" />
 
 

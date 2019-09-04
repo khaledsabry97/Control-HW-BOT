@@ -35,6 +35,7 @@ dependencies {
     implementation 'com.intuit.sdp:sdp-android:1.0.5'
     implementation 'com.github.jrvansuita:MaterialAbout:+'
     implementation 'com.github.medyo:fancybuttons:1.9.1'
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
 
 
 }

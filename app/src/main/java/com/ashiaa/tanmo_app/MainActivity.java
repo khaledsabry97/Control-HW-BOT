@@ -1,14 +1,20 @@
 package com.ashiaa.tanmo_app;
 
 
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.widget.TextViewCompat;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentTransaction;
 
@@ -17,6 +23,7 @@ import com.ashiaa.tanmo_app.Views.AboutFragment;
 import com.ashiaa.tanmo_app.Views.ConfigurationFragment;
 import com.ashiaa.tanmo_app.Views.Homefragment;
 import com.ashiaa.tanmo_app.Views.ScheduleFragment;
+import com.github.ybq.android.spinkit.SpinKitView;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 
@@ -29,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
     ScheduleFragment scheduleFragment;
     ConfigurationFragment configurationFragment;
     AboutFragment aboutFragment;
-
+    SpinKitView loadingBar;
+    BroadcastReceiver loadingBarReceiver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {        //onCreate start
@@ -39,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         header = findViewById(R.id.header_text_id);
         head = findViewById(R.id.header_id);
+        loadingBar = findViewById(R.id.spin_kit);
         homeFragment = new Homefragment();
         scheduleFragment = new ScheduleFragment();
         configurationFragment = new ConfigurationFragment();
@@ -46,6 +55,37 @@ public class MainActivity extends AppCompatActivity {
 
 
         navigate();
+        setupLoadingBar();
+    }
+
+    private void setupLoadingBar() {
+    loadingBarReceiver = new BroadcastReceiver() {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            boolean visible= intent.getBooleanExtra("loading_bar",false);
+            if (visible)
+            {
+                loadingBar.setVisibility(View.VISIBLE);
+
+            }
+            else
+            {
+                loadingBar.setVisibility(View.GONE);
+            }
+        }
+    };
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        registerReceiver(loadingBarReceiver,new IntentFilter("loading_bar_receiver"));
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        unregisterReceiver(loadingBarReceiver);
     }
 
     /**

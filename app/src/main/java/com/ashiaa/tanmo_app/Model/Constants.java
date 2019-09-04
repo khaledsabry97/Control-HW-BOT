@@ -15,8 +15,25 @@ public class Constants {
         saveAndRestore = new SaveAndRestore(context);
 
     }
-    public String getUrl()
+    private String getUrl()
     {
-        return "https://"+saveAndRestore.getIp()+"/json.php";
+        return "https://"+saveAndRestore.getIp();
+    }
+    public String getOnUrl()
+    {
+        String url = getUrl() +"/on.php";
+        return url;
+    }
+
+    public String getOffUrl()
+    {
+        String url = getUrl() +"/off.php";
+        return url;
+    }
+
+    public String getStatusUrl()
+    {
+        String url = getUrl() +"/status.php";
+        return url;
     }
 }

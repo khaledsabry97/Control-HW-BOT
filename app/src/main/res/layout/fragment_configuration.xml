@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:fancy="http://schemas.android.com/apk/res-auto"
-    android:background="@color/background_color"
     tools:context=".Views.ConfigurationFragment">
 
     <RelativeLayout
@@ -31,10 +30,12 @@
                 android:layoutDirection="rtl"
                 android:layout_margin="@dimen/_3sdp">
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     style="@style/TextCategory"
                     android:layout_width="@dimen/_70sdp"
                     android:layout_marginRight="@dimen/_3sdp"
+                    android:background="@drawable/round_corner_box"
+                    android:paddingHorizontal="@dimen/_10sdp"
                     android:text="عنوان الIP" />
 
                 <EditText
@@ -57,11 +58,13 @@
                 android:layoutDirection="rtl"
                 android:layout_margin="@dimen/_3sdp">
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     style="@style/TextCategory"
                     android:layout_width="@dimen/_70sdp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/_3sdp"
+                    android:background="@drawable/round_corner_box"
+                    android:paddingHorizontal="@dimen/_11sdp"
                     android:text="رقم الجهاز" />
 
                 <EditText
@@ -84,11 +87,13 @@ android:hint="1"
                 android:layoutDirection="rtl"
                 android:layout_margin="@dimen/_3sdp">
 
-                <TextView
+                <androidx.appcompat.widget.AppCompatTextView
                     style="@style/TextCategory"
                     android:layout_width="@dimen/_70sdp"
                     android:layout_height="wrap_content"
                     android:layout_marginRight="@dimen/_3sdp"
+                    android:background="@drawable/round_corner_box"
+                    android:paddingHorizontal="@dimen/_12sdp"
                     android:text="كلمة السر" />
 
                 <EditText
