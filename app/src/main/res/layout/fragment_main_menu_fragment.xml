@@ -68,7 +68,7 @@ android:layout_gravity="right"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:visibility="visible">
+            android:visibility="gone">
 
 
             <androidx.constraintlayout.widget.ConstraintLayout
