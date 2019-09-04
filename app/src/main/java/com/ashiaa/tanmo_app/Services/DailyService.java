@@ -53,9 +53,10 @@ public class DailyService extends Service {
 
         // SET TIME HERE
         Calendar calendar= Calendar.getInstance();
+        calendar.setTimeInMillis(System.currentTimeMillis());
         calendar.set(Calendar.HOUR_OF_DAY,saveAndRestore.getDailyClockHour());
         calendar.set(Calendar.MINUTE,saveAndRestore.getDailyClockMin());
-
+        calendar.set(Calendar.SECOND,0);
 
         myIntent = new Intent(getApplicationContext(), AlarmNotificationReceiver.class);
         pendingIntent = PendingIntent.getBroadcast(getApplicationContext(),0,myIntent,0);

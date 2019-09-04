@@ -71,7 +71,7 @@ public class PeriodService extends Service {
         String channelId = "0";
         String title = getApplicationContext().getString(R.string.app_name);
         final NotificationCompat.Builder builder =
-                new NotificationCompat.Builder(this);
+                new NotificationCompat.Builder(this,channelId);
 
         if (manager == null) {
             manager = (NotificationManager) getApplicationContext().getSystemService(Context.NOTIFICATION_SERVICE);
@@ -81,13 +81,13 @@ public class PeriodService extends Service {
             NotificationChannel mChannel = manager.getNotificationChannel(channelId);
             if (mChannel == null) {
                 mChannel = new NotificationChannel(channelId, title, importance);
-                manager.createNotificationChannel(mChannel);
             }
+            manager.createNotificationChannel(mChannel);
         }
 
         builder.setSmallIcon(R.drawable.ic_info_outline_black_24dp)
                 .setContentTitle(title)
-                .setContentText("This is a test notification");
+                .setContentText("");
         builder.setOngoing(true);
         builder.setOnlyAlertOnce(true);
         Intent notificationIntent = new Intent(this, MainActivity.class);
