@@ -46,11 +46,15 @@ public class SendRequest {
         try {
             //type to tell what are the request is sent from the device
             String type = response.getString("type");
-            if(type == "switch_state" || type == "check_state")
+            if(type.equals("switch_state")  || type.equals("check_state"))
             {
+                Log.d("type", type);
                 if (response.getBoolean("is_open") == true) {
+                    Log.d("On Button", "disabled");
+
                     onButton(false);
                 } else {
+                    Log.d("On Button", "enabled");
                     onButton(true);
                 }
             }
@@ -85,7 +89,6 @@ final Constants constants = new Constants(context);
 
             @Override
             public void onErrorResponse(VolleyError error) {
-
 
                 VolleyLog.d("[Not Received]", "Error: " + error.getMessage());
                 //Toast message
