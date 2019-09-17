@@ -1,0 +1,7 @@
+<map id="com.ashiaa.tanmo_app.Views.Homefragment.setupView" name="com.ashiaa.tanmo_app.Views.Homefragment.setupView">
+<area shape="rect" id="node2" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment.html#a7792ba7e18c399d12e22265741adea31" title="com.ashiaa.tanmo_app.Views.\lHomefragment.stopPeriod" alt="" coords="261,34,463,75"/>
+<area shape="rect" id="node3" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment.html#aa48d5f29262374dfe5ffc7731baadd19" title="com.ashiaa.tanmo_app.Views.\lHomefragment.updateTime" alt="" coords="517,19,719,61"/>
+<area shape="rect" id="node4" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment.html#ad991192c1fd1cebc3a59329fc47a7cbe" title="com.ashiaa.tanmo_app.Views.\lHomefragment.enableStopPeriodButton" alt="" coords="767,82,1019,123"/>
+<area shape="rect" id="node5" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html#acac314764cc40f2442abac1319a2c355" title="com.ashiaa.tanmo_app.Model.\lSaveAndRestore.setEndTime" alt="" coords="518,85,718,126"/>
+<area shape="rect" id="node6" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment.html#aa1bdb94b091fb011d9d6292face2150e" title="com.ashiaa.tanmo_app.Views.\lHomefragment.enableStopButton" alt="" coords="255,202,469,243"/>
+</map>

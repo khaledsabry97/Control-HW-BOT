@@ -1,0 +1,10 @@
+<map id="com.ashiaa.tanmo_app.MainActivity" name="com.ashiaa.tanmo_app.MainActivity">
+<area shape="rect" id="node4" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment.html" title="Home tab, main menu fragment. " alt="" coords="1361,657,1563,699"/>
+<area shape="rect" id="node19" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_about_fragment.html" title="com.ashiaa.tanmo_app.Views.\lAboutFragment" alt="" coords="1361,968,1563,1009"/>
+<area shape="rect" id="node20" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment.html" title="com.ashiaa.tanmo_app.Views.\lConfigurationFragment" alt="" coords="1361,1033,1563,1075"/>
+<area shape="rect" id="node24" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment.html" title="class schedule tab fragment. " alt="" coords="1361,545,1563,587"/>
+<area shape="rect" id="node11" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html" title="responsible for all the save and restore from disk. " alt="" coords="255,556,455,597"/>
+<area shape="rect" id="node16" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants.html" title="Some constants to use. " alt="" coords="618,556,818,597"/>
+<area shape="rect" id="node14" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller.html" title="class controller that will prepare sent data and call SendRequest object. " alt="" coords="981,495,1209,536"/>
+<area shape="rect" id="node15" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_controller.html" title="&lt; folder package contain Controller. " alt="" coords="604,491,832,532"/>
+</map>

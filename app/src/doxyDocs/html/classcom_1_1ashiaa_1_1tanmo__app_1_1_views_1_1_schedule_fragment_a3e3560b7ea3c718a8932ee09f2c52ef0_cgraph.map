@@ -1,0 +1,8 @@
+<map id="com.ashiaa.tanmo_app.Views.ScheduleFragment.checkLastState" name="com.ashiaa.tanmo_app.Views.ScheduleFragment.checkLastState">
+<area shape="rect" id="node2" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html#a5f05e12e7f1e18590cee95f6fd68b4d8" title="com.ashiaa.tanmo_app.Model.\lSaveAndRestore.getDailyClockHour" alt="" coords="553,5,787,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html#a77c0a90914b2f959363672c182766b83" title="com.ashiaa.tanmo_app.Model.\lSaveAndRestore.getDailyClockMin" alt="" coords="556,72,784,113"/>
+<area shape="rect" id="node4" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html#a308b59bec3f7497c67849fc8623cf800" title="com.ashiaa.tanmo_app.Model.\lSaveAndRestore.getDailyPeriodHour" alt="" coords="551,140,789,181"/>
+<area shape="rect" id="node5" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html#a4f620f00ac011b1523518050a29c16d4" title="com.ashiaa.tanmo_app.Model.\lSaveAndRestore.getDailyPeriodMin" alt="" coords="555,211,785,252"/>
+<area shape="rect" id="node6" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html#a5482b77d8caffd7f0d9ffbfd34126619" title="com.ashiaa.tanmo_app.Model.\lSaveAndRestore.getDayState" alt="" coords="291,280,491,321"/>
+<area shape="rect" id="node7" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment.html#a18ee1e6cc16745b97439b819bf8d0164" title="update info text whenever you save the setup " alt="" coords="280,112,503,153"/>
+</map>

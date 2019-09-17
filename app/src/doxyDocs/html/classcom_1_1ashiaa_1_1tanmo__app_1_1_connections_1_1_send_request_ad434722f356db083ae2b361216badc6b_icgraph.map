@@ -1,0 +1,8 @@
+<map id="com.ashiaa.tanmo_app.Connections.SendRequest.send" name="com.ashiaa.tanmo_app.Connections.SendRequest.send">
+<area shape="rect" id="node2" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller.html#a2d3a4c6ecf26e7b3a42d429d8b440748" title="private void send(JSONObject jsonObject,String url) " alt="" coords="292,71,520,112"/>
+<area shape="rect" id="node3" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller.html#acafed92e67535dcf22f7b54d9e0a07cd" title="public void sendOn() " alt="" coords="568,5,796,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller.html#a554b3b1acbd676a40a3732c84e879b74" title="public void sendOff() " alt="" coords="568,71,796,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller.html#aacaeb3e3d733a0550603e643e065364a" title="public void sendCheckStatus() " alt="" coords="568,136,796,177"/>
+<area shape="rect" id="node6" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity.html#a11d146a943c88230ba836c37267fb830" title="the navigation to all the fragments in the app " alt="" coords="844,136,1033,177"/>
+<area shape="rect" id="node7" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity.html#a1b10be4f9a7cf2d4ca5c67c7d98a339d" title="com.ashiaa.tanmo_app.Main\lActivity.onCreate" alt="" coords="1081,136,1271,177"/>
+</map>

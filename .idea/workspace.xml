@@ -6,7 +6,6 @@
         <device id="pixel_3_xl" />
         <device id="Nexus 6P" />
         <device id="3.7in WVGA (Nexus One)" />
-        <device id="pixel_3a_xl" />
         <device id="3.7 FWVGA slider" />
         <device id="3.3in WQVGA" />
         <device id="Nexus 6" />
@@ -81,20 +80,648 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0e1513f1-a867-4501-9d11-6cb5fe50768a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/Doxyfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_about_fragment_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_about_fragment_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_alarm_notification_receiver_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_alarm_notification_receiver_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_boot_completed_intent_receiver_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_boot_completed_intent_receiver_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_configuration_fragment_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_configuration_fragment_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_constants_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_constants_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_controller_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_controller_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_daily_service_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_daily_service_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_homefragment_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_homefragment_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_main_activity_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_main_activity_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_period_service_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_period_service_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_save_and_restore_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_save_and_restore_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_schedule_fragment_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_schedule_fragment_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_send_controller_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_send_controller_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_send_request_8java.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/_send_request_8java_source.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/annotated.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/annotated_dup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/bc_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/bdwn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_a154a11a078e394eaf528c689433e55bb_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_a154a11a078e394eaf528c689433e55bb_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_a154a11a078e394eaf528c689433e55bb_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_a7a5aca46f377de277e73a7cd4f222dd7_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_a7a5aca46f377de277e73a7cd4f222dd7_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_a7a5aca46f377de277e73a7cd4f222dd7_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_a7a9a1f187543b71d97a5e2edad1a7f99_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_a7a9a1f187543b71d97a5e2edad1a7f99_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_a7a9a1f187543b71d97a5e2edad1a7f99_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_ad434722f356db083ae2b361216badc6b_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_ad434722f356db083ae2b361216badc6b_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_ad434722f356db083ae2b361216badc6b_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_ad434722f356db083ae2b361216badc6b_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_ad434722f356db083ae2b361216badc6b_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request_ad434722f356db083ae2b361216badc6b_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_controller.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_controller__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_controller__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_controller__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_a2d3a4c6ecf26e7b3a42d429d8b440748_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_a2d3a4c6ecf26e7b3a42d429d8b440748_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_a2d3a4c6ecf26e7b3a42d429d8b440748_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_a2d3a4c6ecf26e7b3a42d429d8b440748_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_a2d3a4c6ecf26e7b3a42d429d8b440748_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_a2d3a4c6ecf26e7b3a42d429d8b440748_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_a554b3b1acbd676a40a3732c84e879b74_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_a554b3b1acbd676a40a3732c84e879b74_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_a554b3b1acbd676a40a3732c84e879b74_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_aacaeb3e3d733a0550603e643e065364a_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_aacaeb3e3d733a0550603e643e065364a_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_aacaeb3e3d733a0550603e643e065364a_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_aacaeb3e3d733a0550603e643e065364a_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_aacaeb3e3d733a0550603e643e065364a_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_aacaeb3e3d733a0550603e643e065364a_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_acafed92e67535dcf22f7b54d9e0a07cd_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_acafed92e67535dcf22f7b54d9e0a07cd_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller_acafed92e67535dcf22f7b54d9e0a07cd_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity_a11d146a943c88230ba836c37267fb830_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity_a11d146a943c88230ba836c37267fb830_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity_a11d146a943c88230ba836c37267fb830_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity_a11d146a943c88230ba836c37267fb830_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity_a11d146a943c88230ba836c37267fb830_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity_a11d146a943c88230ba836c37267fb830_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity_a1b10be4f9a7cf2d4ca5c67c7d98a339d_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity_a1b10be4f9a7cf2d4ca5c67c7d98a339d_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity_a1b10be4f9a7cf2d4ca5c67c7d98a339d_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity_afb770872c995603d76c4e0fb1d4a5692_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity_afb770872c995603d76c4e0fb1d4a5692_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_main_activity_afb770872c995603d76c4e0fb1d4a5692_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants_a128966bcfa27b512e1c726ae98e8d106_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants_a128966bcfa27b512e1c726ae98e8d106_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants_a128966bcfa27b512e1c726ae98e8d106_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants_aa9fce068a32d9ee7429f6b12415711be_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants_aa9fce068a32d9ee7429f6b12415711be_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants_aa9fce068a32d9ee7429f6b12415711be_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants_ab31e59e123b227dfb49338dbca519b71_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants_ab31e59e123b227dfb49338dbca519b71_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants_ab31e59e123b227dfb49338dbca519b71_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants_adcf6b526968a4f50dfa734204ada095d_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants_adcf6b526968a4f50dfa734204ada095d_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_constants_adcf6b526968a4f50dfa734204ada095d_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a308b59bec3f7497c67849fc8623cf800_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a308b59bec3f7497c67849fc8623cf800_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a308b59bec3f7497c67849fc8623cf800_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a4f620f00ac011b1523518050a29c16d4_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a4f620f00ac011b1523518050a29c16d4_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a4f620f00ac011b1523518050a29c16d4_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a5482b77d8caffd7f0d9ffbfd34126619_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a5482b77d8caffd7f0d9ffbfd34126619_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a5482b77d8caffd7f0d9ffbfd34126619_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a56cd687aa443390ae0e07893584cf249_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a56cd687aa443390ae0e07893584cf249_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a56cd687aa443390ae0e07893584cf249_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a5f05e12e7f1e18590cee95f6fd68b4d8_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a5f05e12e7f1e18590cee95f6fd68b4d8_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a5f05e12e7f1e18590cee95f6fd68b4d8_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a77c0a90914b2f959363672c182766b83_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a77c0a90914b2f959363672c182766b83_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a77c0a90914b2f959363672c182766b83_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a7b148578b17b918148a4f77ffa45efb2_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a7b148578b17b918148a4f77ffa45efb2_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a7b148578b17b918148a4f77ffa45efb2_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a8576ef1190fac6e8da01db9bde6a9d1c_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a8576ef1190fac6e8da01db9bde6a9d1c_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a8576ef1190fac6e8da01db9bde6a9d1c_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a9fd5941acdd220a38cd981d5afc98568_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a9fd5941acdd220a38cd981d5afc98568_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_a9fd5941acdd220a38cd981d5afc98568_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_ab65799b22fad369bcef2bd10c28b2ef0_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_ab65799b22fad369bcef2bd10c28b2ef0_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_ab65799b22fad369bcef2bd10c28b2ef0_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_abbf969985833fe9f5f246d3c744ca856_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_abbf969985833fe9f5f246d3c744ca856_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_abbf969985833fe9f5f246d3c744ca856_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_ac167ce7786e1c16d135b305af7a163f9_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_ac167ce7786e1c16d135b305af7a163f9_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_ac167ce7786e1c16d135b305af7a163f9_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_acac314764cc40f2442abac1319a2c355_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_acac314764cc40f2442abac1319a2c355_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_acac314764cc40f2442abac1319a2c355_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_adeb22a73da4e5018f8f4c20901869daa_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_adeb22a73da4e5018f8f4c20901869daa_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore_adeb22a73da4e5018f8f4c20901869daa_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_alarm_notification_receiver-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_alarm_notification_receiver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_alarm_notification_receiver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_alarm_notification_receiver__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_alarm_notification_receiver__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_alarm_notification_receiver__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_alarm_notification_receiver__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_alarm_notification_receiver__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_alarm_notification_receiver__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_alarm_notification_receiver_a5d86c8785cb1936fe587661755fdb7c4_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_alarm_notification_receiver_a5d86c8785cb1936fe587661755fdb7c4_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_alarm_notification_receiver_a5d86c8785cb1936fe587661755fdb7c4_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_boot_completed_intent_receiver-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_boot_completed_intent_receiver.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_boot_completed_intent_receiver.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_boot_completed_intent_receiver__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_boot_completed_intent_receiver__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_boot_completed_intent_receiver__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_boot_completed_intent_receiver__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_boot_completed_intent_receiver__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_boot_completed_intent_receiver__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service_a15665c5b32fdcfa5eff297e369cabb97_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service_a15665c5b32fdcfa5eff297e369cabb97_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service_a15665c5b32fdcfa5eff297e369cabb97_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service_a89c2e44c46b9a641b593a16436a20601_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service_a89c2e44c46b9a641b593a16436a20601_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service_a89c2e44c46b9a641b593a16436a20601_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service_a89c2e44c46b9a641b593a16436a20601_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service_a89c2e44c46b9a641b593a16436a20601_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_daily_service_a89c2e44c46b9a641b593a16436a20601_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_a1edb1909dbb7b54659a96c126c101427_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_a1edb1909dbb7b54659a96c126c101427_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_a1edb1909dbb7b54659a96c126c101427_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_a1edb1909dbb7b54659a96c126c101427_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_a1edb1909dbb7b54659a96c126c101427_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_a1edb1909dbb7b54659a96c126c101427_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_a468660c8d2dfa77d502339e6a8081183_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_a468660c8d2dfa77d502339e6a8081183_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_a468660c8d2dfa77d502339e6a8081183_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_ac3c8f43798b901aa17b5681d0bc5b12d_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_ac3c8f43798b901aa17b5681d0bc5b12d_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_ac3c8f43798b901aa17b5681d0bc5b12d_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_ac3c8f43798b901aa17b5681d0bc5b12d_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_ac3c8f43798b901aa17b5681d0bc5b12d_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_services_1_1_period_service_ac3c8f43798b901aa17b5681d0bc5b12d_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_about_fragment-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_about_fragment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_about_fragment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_about_fragment__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_about_fragment__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_about_fragment__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_about_fragment__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_about_fragment__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_about_fragment__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_a82b2e3d1b6b7e3ea037affca9d2dfdce_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_a82b2e3d1b6b7e3ea037affca9d2dfdce_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_a82b2e3d1b6b7e3ea037affca9d2dfdce_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_a82b2e3d1b6b7e3ea037affca9d2dfdce_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_a82b2e3d1b6b7e3ea037affca9d2dfdce_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_a82b2e3d1b6b7e3ea037affca9d2dfdce_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_aa9e5025c2ca7ac2b310bd04e35761762_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_aa9e5025c2ca7ac2b310bd04e35761762_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_aa9e5025c2ca7ac2b310bd04e35761762_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_aa9e5025c2ca7ac2b310bd04e35761762_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_aa9e5025c2ca7ac2b310bd04e35761762_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_aa9e5025c2ca7ac2b310bd04e35761762_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_ab7d3b5007c14d3adc7f01668139b10ef_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_ab7d3b5007c14d3adc7f01668139b10ef_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_ab7d3b5007c14d3adc7f01668139b10ef_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_abfa5f6e3df5c56bb9cf7af02726fb2ea_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_abfa5f6e3df5c56bb9cf7af02726fb2ea_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment_abfa5f6e3df5c56bb9cf7af02726fb2ea_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a06b4fdd5100b77e881730b0eedad011d_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a06b4fdd5100b77e881730b0eedad011d_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a06b4fdd5100b77e881730b0eedad011d_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a26ed33cbcdc66ab188dfaf5ec84fc2ed_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a26ed33cbcdc66ab188dfaf5ec84fc2ed_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a26ed33cbcdc66ab188dfaf5ec84fc2ed_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a6bd93dd72017a02c81e7e8218d1acc07_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a6bd93dd72017a02c81e7e8218d1acc07_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a6bd93dd72017a02c81e7e8218d1acc07_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a6bd93dd72017a02c81e7e8218d1acc07_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a6bd93dd72017a02c81e7e8218d1acc07_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a6bd93dd72017a02c81e7e8218d1acc07_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a7792ba7e18c399d12e22265741adea31_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a7792ba7e18c399d12e22265741adea31_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a7792ba7e18c399d12e22265741adea31_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a7792ba7e18c399d12e22265741adea31_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a7792ba7e18c399d12e22265741adea31_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_a7792ba7e18c399d12e22265741adea31_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa1bdb94b091fb011d9d6292face2150e_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa1bdb94b091fb011d9d6292face2150e_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa1bdb94b091fb011d9d6292face2150e_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa4706670bcd3c4ffcbf36aed8c3185c9_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa4706670bcd3c4ffcbf36aed8c3185c9_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa4706670bcd3c4ffcbf36aed8c3185c9_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa4706670bcd3c4ffcbf36aed8c3185c9_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa4706670bcd3c4ffcbf36aed8c3185c9_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa4706670bcd3c4ffcbf36aed8c3185c9_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa48d5f29262374dfe5ffc7731baadd19_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa48d5f29262374dfe5ffc7731baadd19_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa48d5f29262374dfe5ffc7731baadd19_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa48d5f29262374dfe5ffc7731baadd19_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa48d5f29262374dfe5ffc7731baadd19_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_aa48d5f29262374dfe5ffc7731baadd19_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_ad991192c1fd1cebc3a59329fc47a7cbe_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_ad991192c1fd1cebc3a59329fc47a7cbe_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment_ad991192c1fd1cebc3a59329fc47a7cbe_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment-members.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment__coll__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment__coll__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment__coll__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment__inherit__graph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment__inherit__graph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment__inherit__graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a18ee1e6cc16745b97439b819bf8d0164_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a18ee1e6cc16745b97439b819bf8d0164_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a18ee1e6cc16745b97439b819bf8d0164_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a18ee1e6cc16745b97439b819bf8d0164_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a18ee1e6cc16745b97439b819bf8d0164_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a18ee1e6cc16745b97439b819bf8d0164_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a3e3560b7ea3c718a8932ee09f2c52ef0_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a3e3560b7ea3c718a8932ee09f2c52ef0_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a3e3560b7ea3c718a8932ee09f2c52ef0_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a3e3560b7ea3c718a8932ee09f2c52ef0_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a3e3560b7ea3c718a8932ee09f2c52ef0_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a3e3560b7ea3c718a8932ee09f2c52ef0_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a7137d43c948405ff8848b32925cf34cb_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a7137d43c948405ff8848b32925cf34cb_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a7137d43c948405ff8848b32925cf34cb_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a7137d43c948405ff8848b32925cf34cb_icgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a7137d43c948405ff8848b32925cf34cb_icgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a7137d43c948405ff8848b32925cf34cb_icgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a92fbc530ce4f1d017135c04a2bcd392d_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a92fbc530ce4f1d017135c04a2bcd392d_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_a92fbc530ce4f1d017135c04a2bcd392d_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_abb7b9a8bf61e832aeab95f8911ba79b0_cgraph.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_abb7b9a8bf61e832aeab95f8911ba79b0_cgraph.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment_abb7b9a8bf61e832aeab95f8911ba79b0_cgraph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/closed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_150b79e3e417023c6c691e451a4a242b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_150b79e3e417023c6c691e451a4a242b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_48373f972c326fde9dab0c285d216574.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_48373f972c326fde9dab0c285d216574.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_5c982d53a68cdbcd421152b4020263a9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_5c982d53a68cdbcd421152b4020263a9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_7ba7902e772f31844a89497db64c3524.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_7ba7902e772f31844a89497db64c3524.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_7fb95e99b42ec8fb85a601d7f264bc73.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_7fb95e99b42ec8fb85a601d7f264bc73.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_d89ba10a96a30a78ea5ee5935d319194.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_d89ba10a96a30a78ea5ee5935d319194.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_e033298f2156e5e9d9e90a60ada84467.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_e033298f2156e5e9d9e90a60ada84467.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_f119202f947aa919154c3499f5d58ca3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_f119202f947aa919154c3499f5d58ca3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_f6275d00a9872344b69f7cf7b1ae183d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_f6275d00a9872344b69f7cf7b1ae183d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_fd5fcd419faa887aee7a55accc061a24.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dir_fd5fcd419faa887aee7a55accc061a24.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/doc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/doxygen.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/doxygen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/dynsections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/files.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/files.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/folderclosed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/folderopen.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/functions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/functions_func.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/functions_vars.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/graph_legend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/graph_legend.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/graph_legend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/hierarchy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/hierarchy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_0.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_0.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_1.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_1.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_2.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_2.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_3.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_3.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_4.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_4.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_5.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_5.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_6.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_6.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_7.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_7.md5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherit_graph_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/inherits.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/menudata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa_1_1tanmo__app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa_1_1tanmo__app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa_1_1tanmo__app_1_1_connections.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa_1_1tanmo__app_1_1_connections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa_1_1tanmo__app_1_1_controllers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa_1_1tanmo__app_1_1_controllers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa_1_1tanmo__app_1_1_model.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa_1_1tanmo__app_1_1_model.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa_1_1tanmo__app_1_1_services.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa_1_1tanmo__app_1_1_services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa_1_1tanmo__app_1_1_views.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespacecom_1_1ashiaa_1_1tanmo__app_1_1_views.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespaces.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/namespaces.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/nav_f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/nav_g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/nav_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/navtree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/navtree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/navtreedata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/navtreeindex0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/all_f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/classes_7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/files_7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/functions_7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/mag_sel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/namespaces_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/namespaces_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/nomatches.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/search.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/search_l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/search_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/search_r.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/searchdata.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_0.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_a.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_a.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_b.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_b.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_d.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_e.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_f.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/search/variables_f.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/splitbar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/sync_off.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/sync_on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/tab_a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/tab_b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/tab_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/tab_s.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/doxyDocs/html/tabs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.1.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_1_1_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_coordinatorlayout_coordinatorlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_dc_volley_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_dc_volley_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_xgc1986_android_ripplebutton_0_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_xgc1986_android_ripplebutton_0_5_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/SaveAndRestore.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/SaveAndRestore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/BootCompletedIntentReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/BootCompletedIntentReceiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/DailyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/DailyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/PeriodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/PeriodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ScheduleFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ScheduleFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/buttonFunctions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +732,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_2_XL_API_28" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -120,96 +746,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1501">
-              <caret line="100" selection-start-line="100" selection-end-line="100" />
+            <state relative-caret-position="1080">
+              <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
               <folding>
+                <element signature="e#0#7322#0" expanded="true" />
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/dc-volley/1.1.0/2e05d09d22ba4f8065404187802d4dc7ead0be49/dc-volley-1.1.0-sources.jar!/com/android/volley/toolbox/Volley.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1672">
-              <caret line="111" column="31" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/DailyService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/PeriodService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
-              <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -229,7 +774,16 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>image</find>
+      <find>/**&lt;</find>
+      <find>Home_fragment</find>
+      <find>onCreate</find>
+      <find>setIs24HourView</find>
+      <find>startButton.setOnClickListener</find>
+      <find>checkLastState</find>
     </findStrings>
+    <replaceStrings>
+      <replace>/**</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -243,26 +797,20 @@
         <option value="$PROJECT_DIR$/app/build/intermediates/merged_manifests/debug/AndroidManifest.xml" />
         <option value="$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/data/res/values/colors_holo.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Home_fragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/BootCompletedIntentReceiver.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/AboutMeFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/empty_tall.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/Controller.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/buttonFunctions.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/SaveAndRestore.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ScheduleFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ConfigurationFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/font/arial.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/AlarmNotificationReceiver.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable-v24/round.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/navigation_items.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/round_corner_box.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_configuration.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/round_box.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/round_all_corners.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/dimen.xml" />
@@ -270,25 +818,31 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/header_fragement.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/drawable/shadow.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main_layout.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/AboutFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_main_menu_fragment.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/DailyService.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/PeriodService.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/Constants.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/SaveAndRestore.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/BootCompletedIntentReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/DailyService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/PeriodService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/Controller.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ScheduleFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1087" />
+    <option name="y" value="33" />
+    <option name="width" value="832" />
+    <option name="height" value="735" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -296,91 +850,58 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="TANMO_app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
             </path>
             <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="manifests" type="f94875db:AndroidManifestsGroupNode" />
-            </path>
-            <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="TANMO_app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
             </path>
             <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="TANMO_app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="tanmo_app" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="TANMO_app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="tanmo_app" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="Connections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="TANMO_app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="tanmo_app" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="Controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="TANMO_app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="tanmo_app" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="TANMO_app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="tanmo_app" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="Services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
+              <item name="TANMO_app" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="tanmo_app" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="menu" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="TANMO_android" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -388,6 +909,7 @@
       </pane>
       <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -395,7 +917,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2019-08-28T21:10:37.346Z" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="/media/muhammad/da/A_Programs/Linux/A_BIG/android_tools/android-sdk-linux" />
-    <property name="device.picker.selection" value="BaytrailA010AD37" />
+    <property name="device.picker.selection" value="W2HNW19322002690" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -451,8 +973,6 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -502,12 +1022,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-3" y="33" width="1372" height="738" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" sideWeight="0.52012384" side_tool="true" weight="0.12953092" />
       <window_info id="Capture Tool" order="1" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.47214076" visible="true" weight="0.1401919" />
-      <window_info id="Structure" order="3" sideWeight="0.5278592" side_tool="true" visible="true" weight="0.1401919" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.4701835" visible="true" weight="0.22272727" />
+      <window_info id="Structure" order="3" sideWeight="0.5298165" side_tool="true" weight="0.36923078" />
       <window_info id="Build Variants" order="4" sideWeight="0.52012384" side_tool="true" weight="0.12953092" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Designer" order="6" />
@@ -519,9 +1040,9 @@
       <window_info anchor="bottom" id="Android Profiler" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4946695" weight="0.33021808" />
       <window_info anchor="bottom" id="Run" order="4" sideWeight="0.66684437" weight="0.32917964" />
-      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.40565032" side_tool="true" weight="0.29179648" />
+      <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.40681818" side_tool="true" weight="0.2910569" />
       <window_info anchor="bottom" id="Version Control" order="6" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.5943497" visible="true" weight="0.29179648" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.5931818" weight="0.2910569" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Sequence" order="9" />
       <window_info anchor="right" id="Device File Explorer" order="0" sideWeight="0.501548" side_tool="true" weight="0.32995737" />
@@ -533,6 +1054,7 @@
       <window_info anchor="right" id="Android WiFi ADB" order="6" />
       <window_info anchor="right" id="AdbCommander" order="7" side_tool="true" />
       <window_info anchor="right" id="Assistant" order="8" sideWeight="0.498452" weight="0.21108742" />
+      <window_info anchor="right" id="Key Promoter X" order="9" />
     </layout>
     <layout-to-restore>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
@@ -565,140 +1087,12 @@
       <window_info anchor="right" id="AdbCommander" order="7" side_tool="true" />
     </layout-to-restore>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/BootCompletedIntentReceiver.java</url>
-          <line>10</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java</url>
-          <line>201</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ConfigurationFragment.java</url>
-          <line>36</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ConfigurationFragment.java</url>
-          <line>35</line>
-          <properties />
-          <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ConfigurationFragment.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/AlarmNotificationReceiver.java</url>
-          <line>47</line>
-          <properties />
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/AlarmNotificationReceiver.java</url>
-          <line>29</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/DailyService.java</url>
-          <line>50</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/AlarmNotificationReceiver.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/AlarmNotificationReceiver.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java</url>
-          <line>142</line>
-          <properties />
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java</url>
-          <line>48</line>
-          <properties />
-          <option name="timeStamp" value="39" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/app/NotificationManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/widget/TimePicker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/widget/TimePicker.class" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.core/core/1.0.1/ae10d2e1965b944830c2c2aaf154765ceb32e0bc/core-1.0.1-sources.jar!/androidx/core/app/NotificationCompat.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="14307">
           <caret line="818" column="23" selection-start-line="818" selection-start-column="23" selection-end-line="818" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/SaveAndRestore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="35" column="29" lean-forward="true" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-          <folding>
-            <element signature="e#981#1012#0" expanded="true" />
-            <element signature="e#1048#1085#0" expanded="true" />
-            <element signature="e#4373#4404#0" expanded="true" />
-            <element signature="e#4406#4452#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -709,17 +1103,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/widget/CompoundButton.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
-          <folding>
-            <element signature="e#1617#1618#0" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/widget/CompoundButton.class" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/font/arial.xml" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -736,13 +1120,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/app/Instrumentation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/app/Instrumentation.class" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/androidx/fragment/app/Fragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46968">
@@ -750,20 +1128,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/view/View.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5092">
-          <caret line="338" column="19" selection-start-line="338" selection-start-column="19" selection-end-line="338" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/content/ContextWrapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4199">
-          <caret line="341" column="18" selection-start-line="341" selection-start-column="18" selection-end-line="341" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/view/View.class" />
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/content/ContextWrapper.class" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.0.0/bcd167792ec03e930d5c8345c99ae07b2627de84/fragment-1.0.0-sources.jar!/androidx/fragment/app/FragmentActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2451">
@@ -805,20 +1171,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_configuration.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
-          <folding>
-            <element signature="e#1374#1388#0" expanded="true" />
-            <element signature="e#1503#1518#0" expanded="true" />
-            <element signature="e#2637#2652#0" expanded="true" />
-            <element signature="e#3737#3752#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/dc-volley/1.1.0/2e05d09d22ba4f8065404187802d4dc7ead0be49/dc-volley-1.1.0-sources.jar!/com/android/volley/toolbox/JsonObjectRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
@@ -837,19 +1189,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_schedule.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
-          <folding>
-            <element signature="e#1463#1477#0" expanded="true" />
-            <element signature="e#2710#2724#0" expanded="true" />
-            <element signature="e#5743#5757#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -901,151 +1240,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/header_fragement.xml">
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/app/AlarmManager.class" />
+    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/java/util/Calendar.class" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/dc-volley/1.1.0/2e05d09d22ba4f8065404187802d4dc7ead0be49/dc-volley-1.1.0-sources.jar!/com/android/volley/toolbox/Volley.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="111" column="31" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/buttonFunctions.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_configuration.xml">
       <provider selected="true" editor-type-id="android-designer2" />
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_layout.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/buttonFunctions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ConfigurationFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/BootCompletedIntentReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/AlarmNotificationReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ScheduleFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2185">
-          <caret line="181" selection-start-line="181" selection-end-line="181" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="64" column="59" selection-start-line="64" selection-start-column="53" selection-end-line="64" selection-end-column="64" />
-          <folding>
-            <element signature="e#2103#2280#0" expanded="true" />
-            <element signature="e#2279#2280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/AboutFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="43" column="76" selection-start-line="43" selection-start-column="76" selection-end-line="43" selection-end-column="76" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1395#1412#0" expanded="true" />
-            <element signature="e#1831#1848#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="389">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_main_menu_fragment.xml">
-      <provider editor-type-id="android-designer2" />
-      <provider selected="true" editor-type-id="text-editor">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="70" column="36" selection-start-line="70" selection-start-column="36" selection-end-line="70" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/android/app/AlarmManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_schedule.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="29" column="49" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/AppData/Local/Android/Sdk/platforms/android-28/android.jar!/java/util/Calendar.class">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/header_fragement.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main_layout.xml">
+      <provider selected="true" editor-type-id="android-designer2" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/Controller.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
-            <element signature="e#3984#3985#0" expanded="true" />
-            <element signature="e#4035#4036#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1501">
-          <caret line="100" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/dc-volley/1.1.0/2e05d09d22ba4f8065404187802d4dc7ead0be49/dc-volley-1.1.0-sources.jar!/com/android/volley/toolbox/Volley.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1672">
-          <caret line="111" column="31" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/DailyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="55" column="61" selection-start-line="55" selection-start-column="61" selection-end-line="55" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#150#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Controllers/SendController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="-1538">
+          <caret line="41" column="13" selection-start-line="41" selection-start-column="13" selection-end-line="41" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#5667#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/BootCompletedIntentReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#3636#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/DailyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="156" column="71" selection-start-line="156" selection-start-column="71" selection-end-line="156" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#7788#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/PeriodService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1054,40 +1361,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/Homefragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/PeriodService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="89" column="33" selection-start-line="89" selection-start-column="33" selection-end-line="89" selection-end-column="33" />
+        <state relative-caret-position="15">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ConfigurationFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/AboutFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Services/AlarmNotificationReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/SaveAndRestore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="37" column="2" selection-start-line="37" selection-start-column="2" selection-end-line="37" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/jre/jre/lib/rt.jar!/java/util/concurrent/ThreadPoolExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="392" selection-start-line="392" selection-end-line="392" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
+        <state relative-caret-position="-165">
           <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Views/ScheduleFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="15">
+          <caret line="85" column="2" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#11782#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Model/Constants.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="1035">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ashiaa/tanmo_app/Connections/SendRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#7322#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

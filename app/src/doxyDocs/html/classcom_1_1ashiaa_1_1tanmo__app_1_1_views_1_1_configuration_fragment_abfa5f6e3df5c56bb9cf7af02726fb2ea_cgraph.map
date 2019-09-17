@@ -1,0 +1,6 @@
+<map id="com.ashiaa.tanmo_app.Views.ConfigurationFragment.onResume" name="com.ashiaa.tanmo_app.Views.ConfigurationFragment.onResume">
+<area shape="rect" id="node2" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment.html#aa9e5025c2ca7ac2b310bd04e35761762" title="com.ashiaa.tanmo_app.Views.\lConfigurationFragment.getData" alt="" coords="275,71,479,112"/>
+<area shape="rect" id="node3" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html#ab65799b22fad369bcef2bd10c28b2ef0" title="public String getIp() " alt="" coords="529,5,729,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html#a56cd687aa443390ae0e07893584cf249" title="public String getDeviceId() " alt="" coords="529,71,729,112"/>
+<area shape="rect" id="node5" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html#adeb22a73da4e5018f8f4c20901869daa" title="public String getPassWord() " alt="" coords="527,136,731,177"/>
+</map>

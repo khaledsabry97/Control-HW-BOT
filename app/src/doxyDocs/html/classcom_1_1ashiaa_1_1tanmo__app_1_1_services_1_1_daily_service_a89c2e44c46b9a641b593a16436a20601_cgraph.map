@@ -1,0 +1,4 @@
+<map id="com.ashiaa.tanmo_app.Services.DailyService.startAlarm" name="com.ashiaa.tanmo_app.Services.DailyService.startAlarm">
+<area shape="rect" id="node2" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html#a5f05e12e7f1e18590cee95f6fd68b4d8" title="com.ashiaa.tanmo_app.Model.\lSaveAndRestore.getDailyClockHour" alt="" coords="269,5,504,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_model_1_1_save_and_restore.html#a77c0a90914b2f959363672c182766b83" title="com.ashiaa.tanmo_app.Model.\lSaveAndRestore.getDailyClockMin" alt="" coords="273,71,501,112"/>
+</map>

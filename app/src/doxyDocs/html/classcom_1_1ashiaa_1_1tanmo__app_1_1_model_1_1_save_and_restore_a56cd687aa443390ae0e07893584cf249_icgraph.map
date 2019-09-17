@@ -1,0 +1,6 @@
+<map id="com.ashiaa.tanmo_app.Model.SaveAndRestore.getDeviceId" name="com.ashiaa.tanmo_app.Model.SaveAndRestore.getDeviceId">
+<area shape="rect" id="node2" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller.html#acafed92e67535dcf22f7b54d9e0a07cd" title="public void sendOn() " alt="" coords="253,5,481,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_controllers_1_1_send_controller.html#a554b3b1acbd676a40a3732c84e879b74" title="public void sendOff() " alt="" coords="253,71,481,112"/>
+<area shape="rect" id="node4" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment.html#aa9e5025c2ca7ac2b310bd04e35761762" title="com.ashiaa.tanmo_app.Views.\lConfigurationFragment.getData" alt="" coords="265,136,469,177"/>
+<area shape="rect" id="node5" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_configuration_fragment.html#abfa5f6e3df5c56bb9cf7af02726fb2ea" title="com.ashiaa.tanmo_app.Views.\lConfigurationFragment.onResume" alt="" coords="529,136,751,177"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="com.ashiaa.tanmo_app.Controllers.SendController.send" name="com.ashiaa.tanmo_app.Controllers.SendController.send">
+<area shape="rect" id="node2" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request.html#ad434722f356db083ae2b361216badc6b" title="function to handle http request by sending JSON object. " alt="" coords="281,5,520,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_connections_1_1_send_request.html#a154a11a078e394eaf528c689433e55bb" title="com.ashiaa.tanmo_app.Connections.\lSendRequest.sendLoadingVisible" alt="" coords="568,5,807,47"/>
+</map>

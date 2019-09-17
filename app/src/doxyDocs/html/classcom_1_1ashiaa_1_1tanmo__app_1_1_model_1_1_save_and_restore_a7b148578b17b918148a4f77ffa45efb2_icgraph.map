@@ -1,0 +1,4 @@
+<map id="com.ashiaa.tanmo_app.Model.SaveAndRestore.saveDayState" name="com.ashiaa.tanmo_app.Model.SaveAndRestore.saveDayState">
+<area shape="rect" id="node2" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment.html#a7137d43c948405ff8848b32925cf34cb" title="setup your views at the begining " alt="" coords="261,5,485,47"/>
+<area shape="rect" id="node3" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment.html#abb7b9a8bf61e832aeab95f8911ba79b0" title="public View onCreateView( LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) ..." alt="" coords="533,5,751,47"/>
+</map>

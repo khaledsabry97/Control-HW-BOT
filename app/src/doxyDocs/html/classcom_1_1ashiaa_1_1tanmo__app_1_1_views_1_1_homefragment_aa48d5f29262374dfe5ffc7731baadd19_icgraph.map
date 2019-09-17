@@ -1,0 +1,5 @@
+<map id="com.ashiaa.tanmo_app.Views.Homefragment.updateTime" name="com.ashiaa.tanmo_app.Views.Homefragment.updateTime">
+<area shape="rect" id="node2" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment.html#aa4706670bcd3c4ffcbf36aed8c3185c9" title="com.ashiaa.tanmo_app.Views.\lHomefragment.setupView" alt="" coords="504,5,705,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment.html#a7792ba7e18c399d12e22265741adea31" title="com.ashiaa.tanmo_app.Views.\lHomefragment.stopPeriod" alt="" coords="255,35,456,76"/>
+<area shape="rect" id="node3" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_homefragment.html#a26ed33cbcdc66ab188dfaf5ec84fc2ed" title="public View onCreateView( LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) ..." alt="" coords="753,5,955,47"/>
+</map>

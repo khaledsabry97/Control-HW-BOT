@@ -1,0 +1,6 @@
+<map id="com.ashiaa.tanmo_app.Views.ScheduleFragment.updateTextInfo" name="com.ashiaa.tanmo_app.Views.ScheduleFragment.updateTextInfo">
+<area shape="rect" id="node2" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment.html#a7137d43c948405ff8848b32925cf34cb" title="setup your views at the begining " alt="" coords="277,5,501,47"/>
+<area shape="rect" id="node4" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment.html#a3e3560b7ea3c718a8932ee09f2c52ef0" title="to restore all the required settings and ui when you open the fragment " alt="" coords="276,71,503,112"/>
+<area shape="rect" id="node3" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment.html#abb7b9a8bf61e832aeab95f8911ba79b0" title="public View onCreateView( LayoutInflater inflater, ViewGroup container,Bundle savedInstanceState) ..." alt="" coords="551,5,768,47"/>
+<area shape="rect" id="node5" href="$classcom_1_1ashiaa_1_1tanmo__app_1_1_views_1_1_schedule_fragment.html#a92fbc530ce4f1d017135c04a2bcd392d" title="com.ashiaa.tanmo_app.Views.\lScheduleFragment.onResume" alt="" coords="559,71,760,112"/>
+</map>
