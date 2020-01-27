@@ -1,4 +1,4 @@
-### Control HW BOT
+# Control HW BOT
 Control home device through mobile app using WiFi connection.
 
 ## Target
